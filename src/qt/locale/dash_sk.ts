@@ -39,7 +39,7 @@
     </message>
     <message>
         <source>C&amp;lose</source>
-        <translation>&amp;Zatvoriť</translation>
+        <translation>Zatvoriť</translation>
     </message>
     <message>
         <source>Choose the address to send coins to</source>
@@ -62,12 +62,12 @@
         <translation>Adresa prijatia</translation>
     </message>
     <message>
-        <source>These are your Dash addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Toto sú Vaše Dash adresy pre posielanie platieb. Pred poslaním mincí vždy overte sumu a doručovaciu adresu.</translation>
+        <source>These are your Soneet addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Toto sú Vaše Soneet adresy pre posielanie platieb. Pred poslaním mincí vždy overte sumu a doručovaciu adresu.</translation>
     </message>
     <message>
-        <source>These are your Dash addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Toto sú Vaše Dash adresy pre posielanie platieb. Pre každú transakciu sa doporučuje použiť novú doručovaciu adresu.</translation>
+        <source>These are your Soneet addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Toto sú Vaše Soneet adresy pre posielanie platieb. Pre každú transakciu sa doporučuje použiť novú doručovaciu adresu.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -136,8 +136,8 @@
         <translation>Slúži na vypnutie triviálneho posielania peňazí v prípade napadnutého účtu operačného systému. Neposkytuje skutočnú bezpečnosť. </translation>
     </message>
     <message>
-        <source>Only for mixing via PrivateSend</source>
-        <translation>Iba pre miešanie cez PrivateSend</translation>
+        <source>For anonymization only</source>
+        <translation>Iba pre anonimizáciu</translation>
     </message>
     <message>
         <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;ten or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
@@ -168,16 +168,16 @@
         <translation>Zmena hesla</translation>
     </message>
     <message>
-        <source>Enter the old passphrase and new passphrase to the wallet.</source>
-        <translation>Zadajte staré heslo a nové heslo k peňaženke.</translation>
+        <source>Enter the old and new passphrase to the wallet.</source>
+        <translation>Zadajte staré a nové heslo k peňaženke.</translation>
     </message>
     <message>
         <source>Confirm wallet encryption</source>
         <translation>Potvrďte šifrovanie peňaženky</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR DASH&lt;/b&gt;!</source>
-        <translation>Upozornenie: Ak zašifrujete vašu peňaženku a stratíte prístupové heslo, potom &lt;b&gt;prídete o všetky svoje DASH-y&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR SONEET&lt;/b&gt;!</source>
+        <translation>Upozornenie: Ak zašifrujete vašu peňaženku a stratíte prístupové heslo, potom &lt;b&gt;prídete o všetky svoje SONEET-y&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -186,6 +186,10 @@
     <message>
         <source>Wallet encrypted</source>
         <translation>Peňaženka zašifrovaná</translation>
+    </message>
+    <message>
+        <source>Soneet will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your soneets from being stolen by malware infecting your computer.</source>
+        <translation>SoneetCoin sa teraz ukončí, aby dokončil proces šifrovania. Nezabudnite, že zašifrovanie vašej peňaženky nemôže plne chrániť Vaše mince pred krádežou škodlivým softvérom, ktorý napadol váš počítač.</translation>
     </message>
     <message>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
@@ -225,21 +229,10 @@
     </message>
 </context>
 <context>
-    <name>BanTableModel</name>
-    <message>
-        <source>IP/Netmask</source>
-        <translation>IP/Sieťová maska</translation>
-    </message>
-    <message>
-        <source>Banned Until</source>
-        <translation>Blokovaný do</translation>
-    </message>
-</context>
-<context>
     <name>BitcoinGUI</name>
     <message>
-        <source>Dash Core</source>
-        <translation>Dash Core</translation>
+        <source>Soneet Core</source>
+        <translation>Soneet Core</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -262,16 +255,16 @@
         <translation>&amp;Odoslať</translation>
     </message>
     <message>
-        <source>Send coins to a Dash address</source>
-        <translation>Poslať mince na Dash adresu</translation>
+        <source>Send coins to a Soneet address</source>
+        <translation>Poslať mince na Soneet adresu</translation>
     </message>
     <message>
         <source>&amp;Receive</source>
         <translation>&amp;Prijať</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and dash: URIs)</source>
-        <translation>Vyžiadať platby (vygeneruje QR kódy a Dash: URI)</translation>
+        <source>Request payments (generates QR codes and soneet: URIs)</source>
+        <translation>Vyžiadať platby (vygeneruje QR kódy a Soneet: URI)</translation>
     </message>
     <message>
         <source>&amp;Transactions</source>
@@ -282,14 +275,6 @@
         <translation>Prechádzať históriu transakcií</translation>
     </message>
     <message>
-        <source>&amp;Masternodes</source>
-        <translation>&amp;Masternodes</translation>
-    </message>
-    <message>
-        <source>Browse masternodes</source>
-        <translation>Prechádzať masternodes</translation>
-    </message>
-    <message>
         <source>E&amp;xit</source>
         <translation>U&amp;končiť</translation>
     </message>
@@ -298,12 +283,12 @@
         <translation>Ukončiť program</translation>
     </message>
     <message>
-        <source>&amp;About Dash Core</source>
-        <translation>&amp;O Dash Core</translation>
+        <source>&amp;About Soneet Core</source>
+        <translation>&amp;O Soneet Core</translation>
     </message>
     <message>
-        <source>Show information about Dash Core</source>
-        <translation>Zobraziť informácie o Dash Core</translation>
+        <source>Show information about Soneet Core</source>
+        <translation>Zobraziť informácie o Soneet Core</translation>
     </message>
     <message>
         <source>About &amp;Qt</source>
@@ -318,8 +303,8 @@
         <translation>&amp;Možnosti...</translation>
     </message>
     <message>
-        <source>Modify configuration options for Dash Core</source>
-        <translation>Upraviť možnosti konfigurácie Dash Core</translation>
+        <source>Modify configuration options for Soneet</source>
+        <translation>Upraviť možnosti konfigurácie pre Soneet</translation>
     </message>
     <message>
         <source>&amp;Show / Hide</source>
@@ -370,20 +355,20 @@
         <translation>Podpísať &amp;správu...</translation>
     </message>
     <message>
-        <source>Sign messages with your Dash addresses to prove you own them</source>
-        <translation>Podpísať správy s Vašimi Dash adresami ako dôkaz že ich vlastníte</translation>
+        <source>Sign messages with your Soneet addresses to prove you own them</source>
+        <translation>Podpísať správy s Vašimi Soneet adresami ako dôkaz že ich vlastníte</translation>
     </message>
     <message>
         <source>&amp;Verify message...</source>
         <translation>Overiť správu</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Dash addresses</source>
-        <translation>Overiť správy pre uistenie, že boli podpísané zadanými Dash adresami</translation>
+        <source>Verify messages to ensure they were signed with specified Soneet addresses</source>
+        <translation>Overiť správy pre uistenie, že boli podpísané zadanými Soneet adresami</translation>
     </message>
     <message>
         <source>&amp;Information</source>
-        <translation>&amp;Informácie</translation>
+        <translation>&amp;Informácia</translation>
     </message>
     <message>
         <source>Show diagnostic information</source>
@@ -422,20 +407,12 @@
         <translation>Zobraziť možnosti opravy peňaženky</translation>
     </message>
     <message>
-        <source>Open Wallet &amp;Configuration File</source>
-        <translation>Otvoriť &amp;konfiguračný súbor peňaženky</translation>
+        <source>Open &amp;Configuration File</source>
+        <translation>Otvoriť &amp;konfiguračný súbor </translation>
     </message>
     <message>
         <source>Open configuration file</source>
         <translation>Otvoriť konfiguračný súbor </translation>
-    </message>
-    <message>
-        <source>Open &amp;Masternode Configuration File</source>
-        <translation>Otvoriť konfiguračný súbor &amp;Masternode</translation>
-    </message>
-    <message>
-        <source>Open Masternode configuration file</source>
-        <translation>Otvoriť konfiguračný súbor Masternode</translation>
     </message>
     <message>
         <source>Show Automatic &amp;Backups</source>
@@ -466,20 +443,28 @@
         <translation>Otvoriť &amp;URI...</translation>
     </message>
     <message>
-        <source>Open a dash: URI or payment request</source>
-        <translation>Otvoriť dash: URI alebo žiadosť o platbu </translation>
+        <source>Open a soneet: URI or payment request</source>
+        <translation>Otvoriť soneet: URI alebo žiadosť o platbu </translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
         <translation>Možnosti príkazového riadku</translation>
     </message>
     <message>
-        <source>&amp;PrivateSend information</source>
-        <translation>Informácie o &amp;PrivateSend</translation>
+        <source>Soneet Core client</source>
+        <translation>Soneet Core klient</translation>
+    </message>
+    <message numerus="yes">
+        <source>Processed %n blocks of transaction history.</source>
+        <translation><numerusform>Spracovaný %n blok transakčnej histórie.</numerusform><numerusform>Spracované %n bloky transakčnej histórie.</numerusform><numerusform>Spracovaných %n blokov transakčnej histórie.</numerusform></translation>
     </message>
     <message>
-        <source>Show the PrivateSend basic information</source>
-        <translation>Ukázať základné Informácie o PrivateSend</translation>
+        <source>Synchronizing additional data: %p%</source>
+        <translation>Synchronizujú sa ďalšie dáta: %p%</translation>
+    </message>
+    <message>
+        <source>Show the Soneet Core help message to get a list with possible Soneet command-line options</source>
+        <translation>Zobraziť Soneet Core nápovedu k získaniu zoznamu možností príkazového riadku Soneet.</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -501,45 +486,49 @@
         <source>Tabs toolbar</source>
         <translation>Lišta záložiek</translation>
     </message>
-    <message>
-        <source>Dash Core client</source>
-        <translation>Dash Core klient</translation>
-    </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Dash network</source>
-        <translation><numerusform>%n aktívne spojenie so sieťou Dash</numerusform><numerusform>%n aktívne spojenia so sieťou Dash</numerusform><numerusform>%n aktívnych spojení so sieťou Dash</numerusform></translation>
-    </message>
-    <message>
-        <source>Network activity disabled</source>
-        <translation>Sieťová aktivita zakázaná</translation>
-    </message>
-    <message>
-        <source>Syncing Headers (%1%)...</source>
-        <translation>Synchronizujú sa hlavičky (%1%)...</translation>
+        <source>%n active connection(s) to Soneet network</source>
+        <translation><numerusform>%n aktívne spojenie so sieťou Soneet</numerusform><numerusform>%n aktívne spojenia so sieťou Soneet</numerusform><numerusform>%n aktívnych spojení so sieťou Soneet</numerusform></translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
         <translation>Synchronizácia so sieťou...</translation>
     </message>
     <message>
-        <source>Indexing blocks on disk...</source>
-        <translation>Indexujem bloky na disku...</translation>
-    </message>
-    <message>
-        <source>Processing blocks on disk...</source>
-        <translation>Spracovávam bloky na disku...</translation>
+        <source>Importing blocks from disk...</source>
+        <translation>Importujem bloky z disku...</translation>
     </message>
     <message>
         <source>Reindexing blocks on disk...</source>
         <translation>Preindexúvam bloky na disku...</translation>
     </message>
     <message>
-        <source>Connecting to peers...</source>
-        <translation>Pripája sa k partnerom...</translation>
+        <source>No block source available...</source>
+        <translation>Nedostupný zdroj blokov...</translation>
+    </message>
+    <message>
+        <source>Up to date</source>
+        <translation>Aktualizovaný</translation>
     </message>
     <message numerus="yes">
-        <source>Processed %n block(s) of transaction history.</source>
-        <translation><numerusform>Spracovaný jeden blok transakčnej histórie.</numerusform><numerusform>Spracované %n bloky transakčnej histórie.</numerusform><numerusform>Spracovaných %n blokov transakčnej histórie.</numerusform></translation>
+        <source>%n hour(s)</source>
+        <translation><numerusform>%n hodina</numerusform><numerusform>%n hodiny</numerusform><numerusform>%n hodín</numerusform></translation>
+    </message>
+    <message numerus="yes">
+        <source>%n day(s)</source>
+        <translation><numerusform>%n deň</numerusform><numerusform>%n dni</numerusform><numerusform>%n dní</numerusform></translation>
+    </message>
+    <message numerus="yes">
+        <source>%n week(s)</source>
+        <translation><numerusform>%n týždeň</numerusform><numerusform>%n týždne</numerusform><numerusform>%n týždňov </numerusform></translation>
+    </message>
+    <message>
+        <source>%1 and %2</source>
+        <translation> %1 a  %2</translation>
+    </message>
+    <message numerus="yes">
+        <source>%n year(s)</source>
+        <translation><numerusform>%n rok</numerusform><numerusform>%n roky</numerusform><numerusform>%n rokov</numerusform></translation>
     </message>
     <message>
         <source>%1 behind</source>
@@ -558,14 +547,6 @@
         <translation>Transakcie potom nebudú ešte viditeľné.</translation>
     </message>
     <message>
-        <source>Up to date</source>
-        <translation>Aktualizovaný</translation>
-    </message>
-    <message>
-        <source>Synchronizing additional data: %p%</source>
-        <translation>Synchronizujú sa ďalšie dáta: %p%</translation>
-    </message>
-    <message>
         <source>Error</source>
         <translation>Chyba</translation>
     </message>
@@ -575,37 +556,7 @@
     </message>
     <message>
         <source>Information</source>
-        <translation>Informácie</translation>
-    </message>
-    <message>
-        <source>Date: %1
-</source>
-        <translation>Dátum: %1
-</translation>
-    </message>
-    <message>
-        <source>Amount: %1
-</source>
-        <translation>Suma: %1
-</translation>
-    </message>
-    <message>
-        <source>Type: %1
-</source>
-        <translation>Typ: %1
-</translation>
-    </message>
-    <message>
-        <source>Label: %1
-</source>
-        <translation>Popis: %1
-</translation>
-    </message>
-    <message>
-        <source>Address: %1
-</source>
-        <translation>Adresa: %1
-</translation>
+        <translation>Informácia</translation>
     </message>
     <message>
         <source>Sent transaction</source>
@@ -616,20 +567,23 @@
         <translation>Prijaté transakcie</translation>
     </message>
     <message>
-        <source>HD key generation is &lt;b&gt;enabled&lt;/b&gt;</source>
-        <translation>Generovanie HD kľúčov je &lt;b&gt;zapnuté&lt;/b&gt;</translation>
-    </message>
-    <message>
-        <source>HD key generation is &lt;b&gt;disabled&lt;/b&gt;</source>
-        <translation>Generovanie HD kľúčov je &lt;b&gt;vypnuté&lt;/b&gt;</translation>
+        <source>Date: %1
+Amount: %2
+Type: %3
+Address: %4
+</source>
+        <translation>Dátum: %1
+Suma: %2
+Typ: %3
+Adresa: %4</translation>
     </message>
     <message>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</source>
         <translation>Peňaženka je &lt;b&gt;zašifrovaná&lt;/b&gt; a momentálne &lt;b&gt;odomknutá&lt;/b&gt;</translation>
     </message>
     <message>
-        <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt; for mixing only</source>
-        <translation>Peňaženka je &lt;b&gt;zašifrovaná&lt;/b&gt; a momentálne &lt;b&gt;odomknutá&lt;/b&gt; iba pre miešanie</translation>
+        <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt; for anonimization only</source>
+        <translation>Peňaženka je &lt;b&gt;zašifrovaná&lt;/b&gt; a momentálne &lt;b&gt;odomknutá&lt;/b&gt; iba pre anonimizáciu</translation>
     </message>
     <message>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
@@ -639,8 +593,8 @@
 <context>
     <name>ClientModel</name>
     <message>
-        <source>Total: %1 (PS compatible: %2 / Enabled: %3)</source>
-        <translation>Celkovo: %1 (Kompatibilné s PS: %2 / Zapnuté: %3)</translation>
+        <source>Total: %1 (DS compatible: %2 / Enabled: %3)</source>
+        <translation>Celkovo: %1 (Kompatibilné z DS: %2 / Zapnuté: %3)</translation>
     </message>
     <message>
         <source>Network Alert</source>
@@ -660,6 +614,10 @@
     <message>
         <source>Amount:</source>
         <translation>Suma:</translation>
+    </message>
+    <message>
+        <source>Priority:</source>
+        <translation>Priorita:</translation>
     </message>
     <message>
         <source>Fee:</source>
@@ -686,10 +644,6 @@
         <translation>(ne)vybrať všetko</translation>
     </message>
     <message>
-        <source>toggle lock state</source>
-        <translation>prepnúť stav zámku</translation>
-    </message>
-    <message>
         <source>Tree mode</source>
         <translation>Stromový režim</translation>
     </message>
@@ -714,8 +668,8 @@
         <translation>Prijaté s adresou</translation>
     </message>
     <message>
-        <source>PS Rounds</source>
-        <translation>Kôl PS</translation>
+        <source>DS Rounds</source>
+        <translation>Kôl DS</translation>
     </message>
     <message>
         <source>Date</source>
@@ -728,6 +682,10 @@
     <message>
         <source>Confirmed</source>
         <translation>Potvrdené</translation>
+    </message>
+    <message>
+        <source>Priority</source>
+        <translation>Priorita</translation>
     </message>
     <message>
         <source>Copy address</source>
@@ -770,6 +728,10 @@
         <translation>Kopírovať bajty</translation>
     </message>
     <message>
+        <source>Copy priority</source>
+        <translation>Kopírovať prioritu</translation>
+    </message>
+    <message>
         <source>Copy dust</source>
         <translation>Kopírovať prach</translation>
     </message>
@@ -778,12 +740,60 @@
         <translation>Kopírovať zmenu</translation>
     </message>
     <message>
-        <source>Non-anonymized input selected. &lt;b&gt;PrivateSend will be disabled.&lt;/b&gt;&lt;br&gt;&lt;br&gt;If you still want to use PrivateSend, please deselect all non-nonymized inputs first and then check PrivateSend checkbox again.</source>
-        <translation>Vybratý ne-anonymizovaný vstup. &lt;b&gt;PrivateSend bude vypnutý.&lt;/b&gt;&lt;br&gt;&lt;br&gt;Ak si stále želáte použiť PrivateSend, najskôr odznačte všetky ne-anonymizované vstupy a potom znova zaškrtnite PrivateSend políčko.</translation>
+        <source>Non-anonymized input selected. &lt;b&gt;Darksend will be disabled.&lt;/b&gt;&lt;br&gt;&lt;br&gt;If you still want to use Darksend, please deselect all non-nonymized inputs first and then check Darksend checkbox again.</source>
+        <translation>Vybratý ne-anonymizovaný vstup. &lt;b&gt;Darksend bude vypnutý.&lt;/b&gt;&lt;br&gt;&lt;br&gt;Ak si stále želáte použiť Darksend, najskôr odznačte všetky e-anonymizované vstup a potom znova zaškrtnite Darksend začiarkavacie políčko.</translation>
+    </message>
+    <message>
+        <source>highest</source>
+        <translation>najvyššie</translation>
+    </message>
+    <message>
+        <source>higher</source>
+        <translation>vyššie</translation>
+    </message>
+    <message>
+        <source>high</source>
+        <translation>vysoké</translation>
+    </message>
+    <message>
+        <source>medium-high</source>
+        <translation>stredne vysoké</translation>
+    </message>
+    <message>
+        <source>Can vary +/- %1 duff(s) per input.</source>
+        <translation>Môže sa pohybovať +/- %1 duff(y) pre vstup.</translation>
+    </message>
+    <message>
+        <source>n/a</source>
+        <translation>nie je k dispozícii</translation>
+    </message>
+    <message>
+        <source>medium</source>
+        <translation>stredné</translation>
+    </message>
+    <message>
+        <source>low-medium</source>
+        <translation>stredne nízke</translation>
+    </message>
+    <message>
+        <source>low</source>
+        <translation>nízke</translation>
+    </message>
+    <message>
+        <source>lower</source>
+        <translation>nižšie</translation>
+    </message>
+    <message>
+        <source>lowest</source>
+        <translation>najnižšie</translation>
     </message>
     <message>
         <source>(%1 locked)</source>
         <translation>(%1 zamknutých)</translation>
+    </message>
+    <message>
+        <source>none</source>
+        <translation>žiadne</translation>
     </message>
     <message>
         <source>yes</source>
@@ -794,12 +804,28 @@
         <translation>nie</translation>
     </message>
     <message>
-        <source>This label turns red if any recipient receives an amount smaller than the current dust threshold.</source>
-        <translation>Tento popis sčervenie ak ktorýkoľvek príjemca dostane sumu menšiu ako súčasný limit pre "prach".</translation>
+        <source>This label turns red, if the transaction size is greater than 1000 bytes.</source>
+        <translation>Tento popis zčervená ak veľkosť transakcie presiahne 1000 bytov.</translation>
     </message>
     <message>
-        <source>Can vary +/- %1 duff(s) per input.</source>
-        <translation>Môže sa pohybovať +/- %1 duff(y) pre vstup.</translation>
+        <source>This means a fee of at least %1 per kB is required.</source>
+        <translation>To znamená že požadovaný poplatok je aspoň  %1  za kB.</translation>
+    </message>
+    <message>
+        <source>Can vary +/- 1 byte per input.</source>
+        <translation>Môže sa pohybovať +/- 1 bajt pre vstup.</translation>
+    </message>
+    <message>
+        <source>Transactions with higher priority are more likely to get included into a block.</source>
+        <translation>Transakcie s vysokou prioritou sa pravdepodobnejsie dostanú do bloku.</translation>
+    </message>
+    <message>
+        <source>This label turns red, if the priority is smaller than "medium".</source>
+        <translation>Tento popis zčervenie ak je priorita nižčia ako "medium".</translation>
+    </message>
+    <message>
+        <source>This label turns red, if any recipient receives an amount smaller than %1.</source>
+        <translation>Tento popis zčervenie ak ktorýkoľvek príjemca dostane sumu menšiu ako %1.</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -813,16 +839,12 @@
         <source>(change)</source>
         <translation>(zmena)</translation>
     </message>
-    <message>
-        <source>n/a</source>
-        <translation>nie je k dispozícii</translation>
-    </message>
 </context>
 <context>
     <name>DarksendConfig</name>
     <message>
-        <source>Configure PrivateSend</source>
-        <translation>Nastaviť PrivateSend</translation>
+        <source>Configure Darksend</source>
+        <translation>Konfigurovať Darksend</translation>
     </message>
     <message>
         <source>Basic Privacy</source>
@@ -841,48 +863,48 @@
         <translation>Prosím vyberte úroveň súkromia.</translation>
     </message>
     <message>
-        <source>Use 2 separate masternodes to mix funds up to 1000 DASH</source>
-        <translation>Použiť 2 rozdielne masternode pre fixovanie prostriedkov až do 1000 DASH</translation>
+        <source>Use 2 separate masternodes to mix funds up to 1000 SONEET</source>
+        <translation>Použiť 2 rozdielne masternode pre fixovanie prostriedkov až do 1000 SONEET</translation>
     </message>
     <message>
-        <source>Use 8 separate masternodes to mix funds up to 1000 DASH</source>
-        <translation>Použiť 8 rozdielnych masternode pre fixovanie prostriedkov až do 1000 DASH</translation>
+        <source>Use 8 separate masternodes to mix funds up to 1000 SONEET</source>
+        <translation>Použiť 8 rozdielnych masternode pre fixovanie prostriedkov až do 1000 SONEET</translation>
     </message>
     <message>
         <source>Use 16 separate masternodes</source>
         <translation>Použiť 16 rozdielnych masternode</translation>
     </message>
     <message>
-        <source>This option is the quickest and will cost about ~0.025 DASH to anonymize 1000 DASH</source>
-        <translation>Táto možnosť je najrýchlejšia a bude stáť približne 0.025 DASH pre anonimizáciu 1000 DASH</translation>
+        <source>This option is the quickest and will cost about ~0.025 SONEET to anonymize 1000 SONEET</source>
+        <translation>Táto možnosť je najrýchlejšia a bude stáť približne 0.025 SONEET pre anonimizáciu 1000 SONEET</translation>
     </message>
     <message>
-        <source>This option is moderately fast and will cost about 0.05 DASH to anonymize 1000 DASH</source>
-        <translation>Táto možnosť je stredne rýchla bude stáť približne 0.05 DASH pre anonimizáciu 1000 DASH</translation>
+        <source>This option is moderately fast and will cost about 0.05 SONEET to anonymize 1000 SONEET</source>
+        <translation>Táto možnosť je stredne rýchla bude stáť približne 0.05 SONEET pre anonimizáciu 1000 SONEET</translation>
     </message>
     <message>
-        <source>0.1 DASH per 1000 DASH you anonymize.</source>
-        <translation>0.1 DASH za 1000 DASH ktoré spravíte anonymnými.</translation>
+        <source>0.1 SONEET per 1000 SONEET you anonymize.</source>
+        <translation>0.1 SONEET za 1000 SONEET ktoré spravíte anonymnými.</translation>
     </message>
     <message>
         <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
         <translation>Toto je najpomalšia a najviac bezpečná možnosť. Použitie maximálnej anonymity bude stáť</translation>
     </message>
     <message>
-        <source>PrivateSend Configuration</source>
-        <translation>Nastavenie PrivateSend</translation>
+        <source>Darksend Configuration</source>
+        <translation>Konfigurácia Darksend</translation>
     </message>
     <message>
-        <source>PrivateSend was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening Dash's configuration screen.</source>
-        <translation>Darksend bol úspešne nastavený na základnú hodnotu (%1 a 2 kolá). Toto nastavenie môžete kedykoľvek zmeniť otvorením konfiguračnej obrazovky Dash.</translation>
+        <source>Darksend was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening Soneet's configuration screen.</source>
+        <translation>Darksend bol úspešne nastavený na základnú hodnotu (%1 a 2 kolá). Toto nastavenie môžete kedykoľvek zmeniť otvorením konfiguračnej obrazovky Soneet.</translation>
     </message>
     <message>
-        <source>PrivateSend was successfully set to high (%1 and 8 rounds). You can change this at any time by opening Dash's configuration screen.</source>
-        <translation>PrivateSend bol úspešne nastavený na základnú hodnotu (%1 a 8 kôl). Toto nastavenie môžete kedykoľvek zmeniť otvorením konfiguračnej obrazovky Dash.</translation>
+        <source>Darksend was successfully set to high (%1 and 8 rounds). You can change this at any time by opening Soneet's configuration screen.</source>
+        <translation>Darksend bol úspešne nastavený na vysokú hodnotu (%1 a 8 kôl). Toto nastavenie môžete kedykoľvek zmeniť otvorením konfiguračnej obrazovky Soneet.</translation>
     </message>
     <message>
-        <source>PrivateSend was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening Dash's configuration screen.</source>
-        <translation>PrivateSend bol úspešne nastavený na maximálnu hodnotu (%1 a 16 kôl). Toto nastavenie môžete kedykoľvek zmeniť otvorením konfiguračnej obrazovky Dash.</translation>
+        <source>Darksend was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening Soneet's configuration screen.</source>
+        <translation>Darksend bol úspešne nastavený na maximálnu hodnotu (%1 a 16 kôl). Toto nastavenie môžete kedykoľvek zmeniť otvorením konfiguračnej obrazovky Soneet.</translation>
     </message>
 </context>
 <context>
@@ -924,8 +946,8 @@
         <translation>Upraviť odosielaciu adresu</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Dash address.</source>
-        <translation>Zadaná adresa "%1" nie je platná Dash adresa.</translation>
+        <source>The entered address "%1" is not a valid Soneet address.</source>
+        <translation>Zadaná adresa "%1" nie je platná Soneet adresa.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -966,8 +988,8 @@
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Dash Core</source>
-        <translation>Dash Core</translation>
+        <source>Soneet Core</source>
+        <translation>Soneet Core</translation>
     </message>
     <message>
         <source>version</source>
@@ -978,8 +1000,8 @@
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About Dash Core</source>
-        <translation>O Dash Core</translation>
+        <source>About Soneet Core</source>
+        <translation>O Soneet Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -994,12 +1016,12 @@
         <translation>voľby príkazového riadku</translation>
     </message>
     <message>
-        <source>UI Options:</source>
-        <translation>Možnosti používateľského rozhrania:</translation>
+        <source>UI options</source>
+        <translation>UI možnosti</translation>
     </message>
     <message>
-        <source>Choose data directory on startup (default: %u)</source>
-        <translation>Vyberte dátový priečinok pri štarte (predvolené: %u)</translation>
+        <source>Choose data directory on startup (default: 0)</source>
+        <translation>Zvoľte dátový priečinok pri štarte (prednastavené: 0)</translation>
     </message>
     <message>
         <source>Set language, for example "de_DE" (default: system locale)</source>
@@ -1014,18 +1036,10 @@
         <translation>Nastaviť koreňový certifikát pre výzvy na platbu (prednastavené: -system-)</translation>
     </message>
     <message>
-        <source>Show splash screen on startup (default: %u)</source>
-        <translation>Zobraziť uvítaciu obrazovku pri štarte (predvolené: %u)</translation>
+        <source>Show splash screen on startup (default: 1)</source>
+        <translation>Zobraziť splash screen pri spustení (predvolené: 1)</translation>
     </message>
-    <message>
-        <source>Reset all settings changed in the GUI</source>
-        <translation>Zrušiť všetky zmeny v GUI</translation>
-    </message>
-    <message>
-        <source>PrivateSend information</source>
-        <translation>Informácie o PrivateSend</translation>
-    </message>
-    </context>
+</context>
 <context>
     <name>Intro</name>
     <message>
@@ -1033,16 +1047,16 @@
         <translation>Vitajte</translation>
     </message>
     <message>
-        <source>Welcome to Dash Core.</source>
-        <translation>Vitajte v Dash Core.</translation>
+        <source>Welcome to Soneet Core.</source>
+        <translation>Vitajte v Soneet Core.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Dash Core will store its data.</source>
-        <translation>Keďže toto je prvý krát čo spúšťate tento program, môžete vybrať kam bude Dash Core ukladať svoje dáta.</translation>
+        <source>As this is the first time the program is launched, you can choose where Soneet Core will store its data.</source>
+        <translation>Keďže toto je prvý krát čo spúšťate tento program, môžete vybrať kam bude Soneet Core ukladať svoje dáta.</translation>
     </message>
     <message>
-        <source>Dash Core will download and store a copy of the Dash block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>Dash Core stiahne a uloží kópiu reťazca blokov Dash. Pri najmenej %1GB dát bude uložených v tejto zložke and bude ďalej rásť. Peňaženka bude tiež uložená v tejto zložke.</translation>
+        <source>Soneet Core will download and store a copy of the Soneet block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>Soneet Core stiahne a uloží kópiu reťazca blokov Soneet. Pri najmenej %1GB dát bude uložených v tejto zložke and bude ďalej rásť. Peňaženka bude tiež uložená v tejto zložke.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1053,8 +1067,8 @@
         <translation>Použiť vlastný dátový adresár:</translation>
     </message>
     <message>
-        <source>Dash Core</source>
-        <translation>Dash Core</translation>
+        <source>Soneet Core</source>
+        <translation>Soneet Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1071,108 +1085,6 @@
     <message>
         <source>(of %1 GB needed)</source>
         <translation>(z potrebných %1GB)</translation>
-    </message>
-</context>
-<context>
-    <name>MasternodeList</name>
-    <message>
-        <source>Form</source>
-        <translation>Od</translation>
-    </message>
-    <message>
-        <source>My Masternodes</source>
-        <translation>Moje Masternodes</translation>
-    </message>
-    <message>
-        <source>Alias</source>
-        <translation>Alias</translation>
-    </message>
-    <message>
-        <source>Address</source>
-        <translation>Adresa</translation>
-    </message>
-    <message>
-        <source>Protocol</source>
-        <translation>Protokol</translation>
-    </message>
-    <message>
-        <source>Status</source>
-        <translation>Stav</translation>
-    </message>
-    <message>
-        <source>Active</source>
-        <translation>Aktívne</translation>
-    </message>
-    <message>
-        <source>Last Seen</source>
-        <translation>Naposledy videné</translation>
-    </message>
-    <message>
-        <source>Payee</source>
-        <translation>Príjemca</translation>
-    </message>
-    <message>
-        <source>Start &amp;all</source>
-        <translation>Začať &amp;všetko</translation>
-    </message>
-    <message>
-        <source>0</source>
-        <translation>0</translation>
-    </message>
-    <message>
-        <source>All Masternodes</source>
-        <translation>Všetky  Masternode</translation>
-    </message>
-    <message>
-        <source>Filter List:</source>
-        <translation>Zoznam filtrov:</translation>
-    </message>
-    <message>
-        <source>Node Count:</source>
-        <translation>Počet uzlov:</translation>
-    </message>
-    </context>
-<context>
-    <name>ModalOverlay</name>
-    <message>
-        <source>Form</source>
-        <translation>Forma</translation>
-    </message>
-    <message>
-        <source>Number of blocks left</source>
-        <translation>Počet zostávajúcich blokov</translation>
-    </message>
-    <message>
-        <source>Unknown...</source>
-        <translation>Neznáme...</translation>
-    </message>
-    <message>
-        <source>Last block time</source>
-        <translation>Čas posledného bloku</translation>
-    </message>
-    <message>
-        <source>Progress</source>
-        <translation>Postup synchronizácie</translation>
-    </message>
-    <message>
-        <source>Progress increase per hour</source>
-        <translation>Prírastok postupu za hodinu</translation>
-    </message>
-    <message>
-        <source>calculating...</source>
-        <translation>počíta sa...</translation>
-    </message>
-    <message>
-        <source>Estimated time left until synced</source>
-        <translation>Odhadovaný čas do ukončenia synchronizácie</translation>
-    </message>
-    <message>
-        <source>Hide</source>
-        <translation>Skryť</translation>
-    </message>
-    <message>
-        <source>Unknown. Syncing Headers (%1)...</source>
-        <translation>Neznámy. Synchronizujú sa hlavičky (%1)...</translation>
     </message>
 </context>
 <context>
@@ -1209,6 +1121,14 @@
         <translation>&amp;Hlavné</translation>
     </message>
     <message>
+        <source>Automatically start Soneet after logging in to the system.</source>
+        <translation>Automaticky spustiť Soneet po prihlásení do systému.</translation>
+    </message>
+    <message>
+        <source>&amp;Start Soneet on system login</source>
+        <translation>&amp;Spusť Soneet po prihlásení do systému</translation>
+    </message>
+    <message>
         <source>Size of &amp;database cache</source>
         <translation>Veľkosť vyrovnávacej pamäti databázy</translation>
     </message>
@@ -1218,43 +1138,31 @@
     </message>
     <message>
         <source>Number of script &amp;verification threads</source>
-        <translation>Počet vlákien overujucich skript</translation>
+        <translation>Počet skript overujucich vlákien</translation>
     </message>
     <message>
         <source>(0 = auto, &lt;0 = leave that many cores free)</source>
         <translation>(0 = auto, &lt;0 = nechať toľko jadier voľných)</translation>
     </message>
     <message>
-        <source>Amount of Dash to keep anonymized</source>
-        <translation>Suma Dash ktorú držať anonymne </translation>
+        <source>Darksend rounds to use</source>
+        <translation>Použiť kôl Darksend</translation>
+    </message>
+    <message>
+        <source>This amount acts as a threshold to turn off Darksend once it's reached.</source>
+        <translation>Táto suma slúži ako hranica pre vypnutie Darksend akonáhle je dosiahnutá</translation>
+    </message>
+    <message>
+        <source>Amount of Soneet to keep anonymized</source>
+        <translation>Suma Soneet ktorú držať anonymne </translation>
     </message>
     <message>
         <source>W&amp;allet</source>
         <translation>Peňaženka</translation>
     </message>
     <message>
-        <source>Automatically start Dash Core after logging in to the system.</source>
-        <translation>Automaticky spustiť Dash Core po prihlásení do systému.</translation>
-    </message>
-    <message>
-        <source>&amp;Start Dash Core on system login</source>
-        <translation>&amp;Spusť Dash po prihlásení do systému</translation>
-    </message>
-    <message>
-        <source>Show Masternodes Tab</source>
-        <translation>Ukázať záložku Masternodes</translation>
-    </message>
-    <message>
         <source>If you disable the spending of unconfirmed change, the change from a transaction&lt;br/&gt;cannot be used until that transaction has at least one confirmation.&lt;br/&gt;This also affects how your balance is computed.</source>
         <translation>Ak vypnete míňanie nepotvrdeného výdavku tak výdavok z transakcie &lt;br&gt;bude možné použiť až keď daná transakcia bude mať aspoň jedno potvrdenie.&lt;br/&gt; Toto má vplyv aj na výpočet vášho zostatku.</translation>
-    </message>
-    <message>
-        <source>PrivateSend rounds to use</source>
-        <translation>Použiť kôl PrivateSend</translation>
-    </message>
-    <message>
-        <source>This amount acts as a threshold to turn off PrivateSend once it's reached.</source>
-        <translation>Táto suma slúži ako hranica pre vypnutie PrivateSend akonáhle je dosiahnutá.</translation>
     </message>
     <message>
         <source>Accept connections from outside</source>
@@ -1265,16 +1173,12 @@
         <translation>Povoliť prichádzajúce spojenia</translation>
     </message>
     <message>
-        <source>Connect to the Dash network through a SOCKS5 proxy.</source>
-        <translation>Pripojiť sa do siete Dash cez proxy SOCKS5.</translation>
+        <source>Connect to the Soneet network through a SOCKS5 proxy.</source>
+        <translation>Pripojiť sa do siete Soneet cez proxy SOCKS5.</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
         <translation>&amp;Pripojiť sa cez SOCKS5 proxy (predvolené proxy):</translation>
-    </message>
-    <message>
-        <source>Minimize instead of exit the application when the window is closed. When this option is enabled, the application will be closed only after selecting Exit in the menu.</source>
-        <translation>Minimalizovať namiesto ukončenia aplikácie keď sa okno zavrie. Keď je zvolená táto možnosť, aplikácia sa zavrie len po zvolení Ukončiť v menu.</translation>
     </message>
     <message>
         <source>Expert</source>
@@ -1301,6 +1205,10 @@
         <translation>Sieť</translation>
     </message>
     <message>
+        <source>Automatically open the Soneet client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Automaticky otvoriť na smerovači port pre Soneet klient. Toto funguje iba ak Váš smerovač  podporuje UPnP a je povolené</translation>
+    </message>
+    <message>
         <source>Map port using &amp;UPnP</source>
         <translation>Mapovať port pomocou &amp;UPnP</translation>
     </message>
@@ -1321,40 +1229,8 @@
         <translation>Port proxy (napr. 9050)</translation>
     </message>
     <message>
-        <source>Used for reaching peers via:</source>
-        <translation>Použité pre získavanie peerov cez:</translation>
-    </message>
-    <message>
-        <source>Shows, if the supplied default SOCKS5 proxy is used to reach peers via this network type.</source>
-        <translation>Zobrazuje, či je poskytované predvolené SOCKS5 proxy používané pre získavanie peerov cez tento typ siete.</translation>
-    </message>
-    <message>
-        <source>IPv4</source>
-        <translation>IPv4</translation>
-    </message>
-    <message>
-        <source>IPv6</source>
-        <translation>IPv6</translation>
-    </message>
-    <message>
-        <source>Tor</source>
-        <translation>Tor</translation>
-    </message>
-    <message>
-        <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services:</source>
-        <translation>Použiť samostatný SOCKS5 proxy server na dosiahnutie počítačov cez skryté služby Tor:</translation>
-    </message>
-    <message>
         <source>&amp;Window</source>
         <translation>Okno</translation>
-    </message>
-    <message>
-        <source>&amp;Hide the icon from the system tray.</source>
-        <translation>&amp;Skryť ikonu zo systémovej lišty.</translation>
-    </message>
-    <message>
-        <source>Hide tray icon</source>
-        <translation>Skryť ikonu v oblasti oznámení</translation>
     </message>
     <message>
         <source>Show only a tray icon after minimizing the window.</source>
@@ -1365,22 +1241,30 @@
         <translation>Zobraziť len ikonu na lište po minimalizovaní okna.</translation>
     </message>
     <message>
+        <source>Minimize instead of exit the application when the window is closed. When this option is enabled, the application will be closed only after selecting Quit in the menu.</source>
+        <translation>Minimalizovat namiesto ukončenia aplikácie keď sa okno zavrie. Keď je zvolená táto možnosť, aplikácia sa zavrie len po zvolení Ukončiť v menu.</translation>
+    </message>
+    <message>
         <source>M&amp;inimize on close</source>
-        <translation>M&amp;inimalizovať pri zatvorení</translation>
+        <translation>M&amp;inimalizovať pri zavretí</translation>
     </message>
     <message>
         <source>&amp;Display</source>
-        <translation>&amp;Zobrazenie</translation>
+        <translation>&amp;Displej</translation>
     </message>
     <message>
         <source>User Interface &amp;language:</source>
         <translation>Jazyk užívateľského rozhrania:</translation>
     </message>
     <message>
+        <source>The user interface language can be set here. This setting will take effect after restarting Soneet.</source>
+        <translation>Tu môžete nastaviť jazyk používateľského prostredia. Toto nastavenie sa prejaví po reštartovaní Soneet.</translation>
+    </message>
+    <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/projects/p/dash/</source>
+https://www.transifex.com/projects/p/soneet/</source>
         <translation>Chýbajúci alebo nekompletný preklad? Pomôžte nám tu:
-https://www.transifex.com/projects/p/dash/</translation>
+https://www.transifex.com/projects/p/soneet/</translation>
     </message>
     <message>
         <source>User Interface Theme:</source>
@@ -1392,11 +1276,15 @@ https://www.transifex.com/projects/p/dash/</translation>
     </message>
     <message>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
-        <translation>Zvoľte predvolenú jednotku delenia, ktorá sa zobrazí pri posielaní mincí</translation>
+        <translation>Zvoľte ako deliť bitcoin pri zobrazovaní pri platbách a užívateľskom rozhraní.</translation>
     </message>
     <message>
         <source>Decimal digits</source>
         <translation>Decimálne čísla</translation>
+    </message>
+    <message>
+        <source>Third party URLs (e.g. a block explorer) that appear in the transactions tab as context menu items. %s in the URL is replaced by transaction hash. Multiple URLs are separated by vertical bar |.</source>
+        <translation>URL tretích strán (napr. prehliadač blockchain) ktoré sa zobrazujú v záložke transakcií ako položky kontextového menu. %s v URL je nahradené hash-om transakcie. Viaceré URL sú oddelené zvislou čiarou |.</translation>
     </message>
     <message>
         <source>Third party transaction URLs</source>
@@ -1404,7 +1292,7 @@ https://www.transifex.com/projects/p/dash/</translation>
     </message>
     <message>
         <source>Active command-line options that override above options:</source>
-        <translation>Aktívne možnosti príkazového riadku, ktoré prepíšu možnosti vyššie:</translation>
+        <translation>Aktévne možnosti príkazového riadku ktoré prepíšu možnosti vyššie:</translation>
     </message>
     <message>
         <source>Reset all client options to default.</source>
@@ -1439,7 +1327,7 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Reštart klienta potrebný pre aktivovanie zmien.</translation>
     </message>
     <message>
-        <source>Client will be shut down. Do you want to proceed?</source>
+        <source>Client will be shutdown, do you want to proceed?</source>
         <translation>Klient bude vypnutý, chcete pokračovať?</translation>
     </message>
     <message>
@@ -1458,8 +1346,8 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Forma</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Dash network after a connection is established, but this process has not completed yet.</source>
-        <translation>Zobrazené informácie môžu byť zastaralé. Vaša peňaženka sa automaticky zosynchronizuje so sieťou Dash akonáhle nadviaže spojenie, avšak tento proces ešte nebol dokončený.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Soneet network after a connection is established, but this process has not completed yet.</source>
+        <translation>Zobrazené informácie môžu byť zastaralé. Vaša peňaženka sa automaticky zosynchronizuje so sieťou Soneet akonáhle nadviaže spojenie, avšak tento proces ešte nebol dokončený.</translation>
     </message>
     <message>
         <source>Available:</source>
@@ -1471,7 +1359,7 @@ https://www.transifex.com/projects/p/dash/</translation>
     </message>
     <message>
         <source>Pending:</source>
-        <translation>Čakajúce:</translation>
+        <translation>Čakajúce potvrdenie</translation>
     </message>
     <message>
         <source>Total of transactions that have yet to be confirmed, and do not yet count toward the spendable balance</source>
@@ -1522,10 +1410,6 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Použiteľné:</translation>
     </message>
     <message>
-        <source>PrivateSend</source>
-        <translation>PrivateSend</translation>
-    </message>
-    <message>
         <source>Status:</source>
         <translation>Stav:</translation>
     </message>
@@ -1538,28 +1422,16 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Dokončenie:</translation>
     </message>
     <message>
-        <source>Try to manually submit a PrivateSend request.</source>
-        <translation>Skúsiť manuálne odoslať PrivateSend požiadavku.</translation>
-    </message>
-    <message>
-        <source>Reset the current status of PrivateSend (can interrupt PrivateSend if it's in the process of Mixing, which can cost you money!)</source>
-        <translation>Vynulovať súčasný stav PrivateSend (môže prerušiť PrivateSend ak je v procese miešania, čo Vás môže stáť peniaze!)</translation>
-    </message>
-    <message>
-        <source>Information about PrivateSend and Mixing</source>
-        <translation>Informácie o PrivateSend a miešaní</translation>
-    </message>
-    <message>
-        <source>Info</source>
-        <translation>Informácie</translation>
+        <source>Darksend Balance:</source>
+        <translation>Bilancia Darksend:</translation>
     </message>
     <message>
         <source>Amount and Rounds:</source>
         <translation>Čiastka a kolá:</translation>
     </message>
     <message>
-        <source>0 DASH / 0 Rounds</source>
-        <translation>0 DASH / 0 Kôl</translation>
+        <source>0 SONEET / 0 Rounds</source>
+        <translation>0 SONEET / 0 Kôl</translation>
     </message>
     <message>
         <source>Submitted Denom:</source>
@@ -1570,16 +1442,16 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>nie je k dispozícii</translation>
     </message>
     <message>
+        <source>Darksend</source>
+        <translation>Darksend</translation>
+    </message>
+    <message>
         <source>Recent transactions</source>
         <translation>Nedávne transakcie</translation>
     </message>
     <message>
         <source>Start/Stop Mixing</source>
         <translation>Začať/Zastaviť miešanie</translation>
-    </message>
-    <message>
-        <source>PrivateSend Balance:</source>
-        <translation>Zostatok PrivateSend:</translation>
     </message>
     <message>
         <source>The denominations you submitted to the Masternode.&lt;br&gt;To mix, other users must submit the exact same denominations.</source>
@@ -1590,8 +1462,16 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>(Posledná správa)</translation>
     </message>
     <message>
+        <source>Try to manually submit a Darksend request.</source>
+        <translation>Skúsiť manuálne odoslať Darksend požiadavku.</translation>
+    </message>
+    <message>
         <source>Try Mix</source>
         <translation>Výskúšať mix</translation>
+    </message>
+    <message>
+        <source>Reset the current status of Darksend (can interrupt Darksend if it's in the process of Mixing, which can cost you money!)</source>
+        <translation>Vynulovať súčasný stav Darksend (môže prerušiť Darksend ak je v procese miešania, čo Vás môže stáť peniaze!)</translation>
     </message>
     <message>
         <source>Reset</source>
@@ -1602,12 +1482,16 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>nesynchronizované</translation>
     </message>
     <message>
-        <source>Start Mixing</source>
-        <translation>Začať miešanie</translation>
+        <source>Disabled</source>
+        <translation>Vypnuté</translation>
     </message>
     <message>
-        <source>Stop Mixing</source>
-        <translation>Zastaviť miešanie</translation>
+        <source>Start Darksend Mixing</source>
+        <translation>Začať Dasksend miešanie</translation>
+    </message>
+    <message>
+        <source>Stop Darksend Mixing</source>
+        <translation>Zastaviť Dasksend miešanie</translation>
     </message>
     <message>
         <source>No inputs detected</source>
@@ -1616,10 +1500,6 @@ https://www.transifex.com/projects/p/dash/</translation>
     <message numerus="yes">
         <source>%n Rounds</source>
         <translation><numerusform>%n kolo</numerusform><numerusform>%n kolá</numerusform><numerusform>%n kôl</numerusform></translation>
-    </message>
-    <message>
-        <source>Found enough compatible inputs to anonymize %1</source>
-        <translation>Nájdený dostatok kompatibilných vstupov na anonymizáciu %1</translation>
     </message>
     <message>
         <source>Not enough compatible inputs to anonymize &lt;span style='color:red;'&gt;%1&lt;/span&gt;,&lt;br&gt;will anonymize &lt;span style='color:red;'&gt;%2&lt;/span&gt; instead</source>
@@ -1634,38 +1514,29 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Denominované </translation>
     </message>
     <message>
-        <source>Mixed</source>
-        <translation>Zmiešané</translation>
-    </message>
-    <message>
         <source>Anonymized</source>
         <translation>Anonymizované</translation>
     </message>
-    <message>
-        <source>keys left: %1</source>
-        <translation>zostávajúce kľúče: %1</translation>
+    <message numerus="yes">
+        <source>Denominated inputs have %5 of %n rounds on average</source>
+        <translation><numerusform>Denominované vstupy majú v priemere %5 z %n kola</numerusform><numerusform>Denominované vstupy majú v priemere %5 z %n kôl</numerusform><numerusform>Denominované vstupy majú v priemere %5 z %n kôl</numerusform></translation>
     </message>
     <message>
-        <source>Disabled</source>
-        <translation>Vypnuté</translation>
+        <source>Found enough compatible inputs to anonymize %1</source>
+        <translation>Nájdený dostatok kompatibilných vstupov na anonymizáciu %1</translation>
     </message>
     <message>
-        <source>ERROR! Failed to create automatic backup</source>
-        <translation>CHYBA! Nepodarilo sa vytvoriť automatickú zálohu</translation>
+        <source>Mixed</source>
+        <translation>Zmiešané</translation>
     </message>
     <message>
         <source>Enabled</source>
         <translation>Povolené </translation>
     </message>
     <message>
-        <source>see debug.log for details.</source>
-        <translation>podrobnosti nájdete v debug.log.</translation>
-    </message>
-    <message>
-        <source>Last PrivateSend message:
+        <source>Last Darksend message:
 </source>
-        <translation>Posledná PrivateSend správa:
-
+        <translation>Posledná Darksend správa:
 </translation>
     </message>
     <message>
@@ -1673,20 +1544,20 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>nie je k dispozícii</translation>
     </message>
     <message>
-        <source>PrivateSend was successfully reset.</source>
-        <translation>PrivateSend bol úspešne obnovený</translation>
+        <source>Darksend was successfully reset.</source>
+        <translation>Darksend bol úspešne obnovený</translation>
     </message>
     <message>
-        <source>If you don't want to see internal PrivateSend fees/transactions select "Most Common" as Type on the "Transactions" tab.</source>
+        <source>If you don't want to see internal Darksend fees/transactions select "Most Common" as Type on the "Transactions" tab.</source>
         <translation>Ak nechcete vidieť interné Darksend poplatky/transakcie, vyberte "Najčastejšie" ako typ na záložke "Transakcie".</translation>
     </message>
     <message>
-        <source>PrivateSend requires at least %1 to use.</source>
-        <translation>Pre použitie vyžaduje PrivateSend aspoň %1.</translation>
+        <source>Darksend requires at least %1 to use.</source>
+        <translation>Pre použitie vyžaduje Darksend aspoň %1.</translation>
     </message>
     <message>
-        <source>Wallet is locked and user declined to unlock. Disabling PrivateSend.</source>
-        <translation>Peňaženka je zamknutá a používateľ ju odmietol odomknúť. Vypína sa PrivateSend.</translation>
+        <source>Wallet is locked and user declined to unlock. Disabling Darksend.</source>
+        <translation>Peňaženka je zamknutá a používateľ ju odmietol odomknúť. Vypínam Darksend.</translation>
     </message>
 </context>
 <context>
@@ -1696,8 +1567,8 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Chyba pri vyžiadaní platby</translation>
     </message>
     <message>
-        <source>Cannot start dash: click-to-pay handler</source>
-        <translation>Dash sa nedá spustiť: click-to-pay handler</translation>
+        <source>Cannot start soneet: click-to-pay handler</source>
+        <translation>Soneet sa nedá spustiť: click-to-pay handler</translation>
     </message>
     <message>
         <source>URI handling</source>
@@ -1708,16 +1579,16 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>URL pre stiahnutie výzvy na zaplatenie je neplatné: %1</translation>
     </message>
     <message>
+        <source>Payment request file handling</source>
+        <translation>Obsluha súboru s požiadavkou na platbu</translation>
+    </message>
+    <message>
         <source>Invalid payment address %1</source>
         <translation>Neplatná adresa platby %1</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid Dash address or malformed URI parameters.</source>
-        <translation>URI sa nedá analyzovať! Toto môže byť spôsobené neplatnou Dash adresou, alebo nesprávnym tvarom URI parametrov.</translation>
-    </message>
-    <message>
-        <source>Payment request file handling</source>
-        <translation>Obsluha súboru s požiadavkou na platbu</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid Soneet address or malformed URI parameters.</source>
+        <translation>URI sa nedá analyzovať! Toto môže byť spôsobené neplatnou Soneet adresou, alebo nesprávnym tvarom URI parametrov.</translation>
     </message>
     <message>
         <source>Payment request file cannot be read! This can be caused by an invalid payment request file.</source>
@@ -1732,8 +1603,8 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Sieť požiadavky na platbu sa nezhoduje s klientovou sieťou</translation>
     </message>
     <message>
-        <source>Payment request expired.</source>
-        <translation>Vypršala platnosť požiadavky na platbu.</translation>
+        <source>Payment request has expired.</source>
+        <translation>Požiadavka na platbu vypršala.</translation>
     </message>
     <message>
         <source>Payment request is not initialized.</source>
@@ -1742,10 +1613,6 @@ https://www.transifex.com/projects/p/dash/</translation>
     <message>
         <source>Unverified payment requests to custom payment scripts are unsupported.</source>
         <translation>Program nepodporuje neoverené platobné výzvy na vlastná skripty.</translation>
-    </message>
-    <message>
-        <source>Invalid payment request.</source>
-        <translation>Chybná požiadavka na platbu.</translation>
     </message>
     <message>
         <source>Requested payment amount of %1 is too small (considered dust).</source>
@@ -1758,6 +1625,10 @@ https://www.transifex.com/projects/p/dash/</translation>
     <message>
         <source>Payment request %1 is too large (%2 bytes, allowed %3 bytes).</source>
         <translation>Požiadavka na platbu %1 je príliš veľká (%2 bytov, dovolených %3 bytov).</translation>
+    </message>
+    <message>
+        <source>Payment request DoS protection</source>
+        <translation>DoS ochrana požiadavky na platbu</translation>
     </message>
     <message>
         <source>Error communicating with %1: %2</source>
@@ -1783,39 +1654,27 @@ https://www.transifex.com/projects/p/dash/</translation>
 <context>
     <name>PeerTableModel</name>
     <message>
-        <source>NodeId</source>
-        <translation>ID uzlu</translation>
-    </message>
-    <message>
-        <source>Node/Service</source>
-        <translation>Uzol/Služba</translation>
+        <source>Address/Hostname</source>
+        <translation>Adresa/Názov hostiteľa</translation>
     </message>
     <message>
         <source>User Agent</source>
         <translation>Agent používateľa</translation>
     </message>
     <message>
-        <source>Ping</source>
-        <translation>Odozva</translation>
+        <source>Ping Time</source>
+        <translation>Doba odozvy</translation>
     </message>
 </context>
 <context>
     <name>QObject</name>
     <message>
-        <source>Dash Core</source>
-        <translation>Dash Core</translation>
-    </message>
-    <message>
-        <source>Error: %1</source>
-        <translation>Chyba: %1</translation>
-    </message>
-    <message>
         <source>Amount</source>
         <translation>Suma</translation>
     </message>
     <message>
-        <source>Enter a Dash address (e.g. %1)</source>
-        <translation>Zadajte Dash adresu (e.g. %1)</translation>
+        <source>Enter a Soneet address (e.g. %1)</source>
+        <translation>Zadajte Soneet adresu (e.g. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1834,6 +1693,14 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>%1 s</translation>
     </message>
     <message>
+        <source>NETWORK</source>
+        <translation>SIEŤ</translation>
+    </message>
+    <message>
+        <source>UNKNOWN</source>
+        <translation>NEZNÁME</translation>
+    </message>
+    <message>
         <source>None</source>
         <translation>Žiadne</translation>
     </message>
@@ -1844,14 +1711,6 @@ https://www.transifex.com/projects/p/dash/</translation>
     <message>
         <source>%1 ms</source>
         <translation>%1 ms</translation>
-    </message>
-    <message>
-        <source>%1 and %2</source>
-        <translation> %1 a  %2</translation>
-    </message>
-    <message>
-        <source>unknown</source>
-        <translation>neznámy</translation>
     </message>
 </context>
 <context>
@@ -1881,7 +1740,7 @@ https://www.transifex.com/projects/p/dash/</translation>
     </message>
     <message>
         <source>&amp;Information</source>
-        <translation>&amp;Informácie</translation>
+        <translation>&amp;Informácia</translation>
     </message>
     <message>
         <source>General</source>
@@ -1904,6 +1763,10 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Počet pripojení</translation>
     </message>
     <message>
+        <source>Open the Soneet debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Otvoriť denník ladenia Soneet zo súčastného adresára. Môže trvať niekoľko sekúnd ak je súbor veľký.</translation>
+    </message>
+    <message>
         <source>&amp;Open</source>
         <translation>&amp;Otvoriť</translation>
     </message>
@@ -1924,6 +1787,14 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Súbor záznamu ladenia</translation>
     </message>
     <message>
+        <source>Using OpenSSL version</source>
+        <translation>Používa OpenSSL verziu</translation>
+    </message>
+    <message>
+        <source>Build date</source>
+        <translation>Dátum zostavenia</translation>
+    </message>
+    <message>
         <source>Current number of blocks</source>
         <translation>Aktuálny počet blokov</translation>
     </message>
@@ -1942,18 +1813,6 @@ https://www.transifex.com/projects/p/dash/</translation>
     <message>
         <source>Number of Masternodes</source>
         <translation>Počet Mastenode</translation>
-    </message>
-    <message>
-        <source>Memory Pool</source>
-        <translation>Pamäť Poolu</translation>
-    </message>
-    <message>
-        <source>Current number of transactions</source>
-        <translation>Aktuálny počet tranzakcií</translation>
-    </message>
-    <message>
-        <source>Memory usage</source>
-        <translation>Využitie pamäte</translation>
     </message>
     <message>
         <source>&amp;Console</source>
@@ -1988,16 +1847,8 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>&amp;Partnerské uzly</translation>
     </message>
     <message>
-        <source>Banned peers</source>
-        <translation>Zablokované spojenia</translation>
-    </message>
-    <message>
         <source>Select a peer to view detailed information.</source>
         <translation>Pre detailné informácie vyberte partnerský uzol.</translation>
-    </message>
-    <message>
-        <source>Whitelisted</source>
-        <translation>Povolené</translation>
     </message>
     <message>
         <source>Direction</source>
@@ -2008,40 +1859,20 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Verzia</translation>
     </message>
     <message>
-        <source>Starting Block</source>
-        <translation>Počiatočný Blok</translation>
-    </message>
-    <message>
-        <source>Synced Headers</source>
-        <translation>Synchronizované hlavičky</translation>
-    </message>
-    <message>
-        <source>Synced Blocks</source>
-        <translation>Synchronizované bloky</translation>
-    </message>
-    <message>
-        <source>Wallet Path</source>
-        <translation>Cesta k peňaženke</translation>
-    </message>
-    <message>
         <source>User Agent</source>
         <translation>Agent používateľa</translation>
     </message>
     <message>
-        <source>Datadir</source>
-        <translation>Priečinok s dátami</translation>
-    </message>
-    <message>
-        <source>Decrease font size</source>
-        <translation>Zmenšiť písmo</translation>
-    </message>
-    <message>
-        <source>Increase font size</source>
-        <translation>Zväčšiť písmo</translation>
-    </message>
-    <message>
         <source>Services</source>
         <translation>Služby</translation>
+    </message>
+    <message>
+        <source>Starting Height</source>
+        <translation>Počiatočná výška</translation>
+    </message>
+    <message>
+        <source>Sync Height</source>
+        <translation>Synchronizačná výška</translation>
     </message>
     <message>
         <source>Ban Score</source>
@@ -2060,24 +1891,16 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Posledné prijaté</translation>
     </message>
     <message>
+        <source>Bytes Sent</source>
+        <translation>Odoslaných bajtov</translation>
+    </message>
+    <message>
+        <source>Bytes Received</source>
+        <translation>Prijatých bajtov</translation>
+    </message>
+    <message>
         <source>Ping Time</source>
         <translation>Doba odozvy</translation>
-    </message>
-    <message>
-        <source>The duration of a currently outstanding ping.</source>
-        <translation>Trvanie aktuálneho pingu</translation>
-    </message>
-    <message>
-        <source>Ping Wait</source>
-        <translation>Čakanie na ping</translation>
-    </message>
-    <message>
-        <source>Min Ping</source>
-        <translation>Minimálna odozva</translation>
-    </message>
-    <message>
-        <source>Time Offset</source>
-        <translation>Časový posun</translation>
     </message>
     <message>
         <source>&amp;Wallet Repair</source>
@@ -2140,42 +1963,6 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>-reindex: Znovu vytvoriť index reťazca blokov zo súčastného blk000??.dat súboru.</translation>
     </message>
     <message>
-        <source>&amp;Disconnect</source>
-        <translation>&amp;Odpojiť</translation>
-    </message>
-    <message>
-        <source>Ban for</source>
-        <translation>Zakázať na</translation>
-    </message>
-    <message>
-        <source>1 &amp;hour</source>
-        <translation>1 &amp;hodina</translation>
-    </message>
-    <message>
-        <source>1 &amp;day</source>
-        <translation>1 &amp;deň</translation>
-    </message>
-    <message>
-        <source>1 &amp;week</source>
-        <translation>1 &amp;týždeň</translation>
-    </message>
-    <message>
-        <source>1 &amp;year</source>
-        <translation>1 &amp;rok</translation>
-    </message>
-    <message>
-        <source>&amp;Unban</source>
-        <translation>&amp;Zrušiť zákaz</translation>
-    </message>
-    <message>
-        <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
-        <translation>Použite šipky hore a dolu pre navigáciu históriou a &lt;b&gt;Ctrl-L&lt;/b&gt; pre vyčistenie obrazovky.</translation>
-    </message>
-    <message>
-        <source>Type &lt;b&gt;help&lt;/b&gt; for an overview of available commands.</source>
-        <translation>Napíš &lt;b&gt;help&lt;/b&gt; pre prehľad dostupných príkazov.</translation>
-    </message>
-    <message>
         <source>In:</source>
         <translation>Dnu:</translation>
     </message>
@@ -2184,8 +1971,16 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Von:</translation>
     </message>
     <message>
-        <source>Network activity disabled</source>
-        <translation>Sieťová aktivita zakázaná</translation>
+        <source>Welcome to the Soneet RPC console.</source>
+        <translation>Vitajte v konzole Soneet RPC</translation>
+    </message>
+    <message>
+        <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
+        <translation>Použi šipky hore a dolu pre navigáciu históriou a &lt;b&gt;Ctrl-L&lt;/b&gt; pre vyčistenie obrazovky.</translation>
+    </message>
+    <message>
+        <source>Type &lt;b&gt;help&lt;/b&gt; for an overview of available commands.</source>
+        <translation>Napíš &lt;b&gt;help&lt;/b&gt; pre prehľad dostupných príkazov.</translation>
     </message>
     <message>
         <source>%1 B</source>
@@ -2204,10 +1999,6 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>%1 GB</translation>
     </message>
     <message>
-        <source>(node id: %1)</source>
-        <translation>(ID uzlu: %1)</translation>
-    </message>
-    <message>
         <source>via %1</source>
         <translation>cez %1</translation>
     </message>
@@ -2224,16 +2015,12 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Výstupné</translation>
     </message>
     <message>
-        <source>Yes</source>
-        <translation>Áno</translation>
-    </message>
-    <message>
-        <source>No</source>
-        <translation>Nie</translation>
-    </message>
-    <message>
         <source>Unknown</source>
         <translation>Neznáme</translation>
+    </message>
+    <message>
+        <source>Fetching...</source>
+        <translation>Načítava sa...</translation>
     </message>
 </context>
 <context>
@@ -2247,8 +2034,8 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Znovu použiť jestvujúcu prijímaciu adresu (neodporúča sa)</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Dash network.</source>
-        <translation>Pripojiť ku vyžiadanej platbe voliteľnú správu, ktorá sa zobrazí, keď bude žiadosť otvorená. Poznámka: Správa nebude poslaná spolu s platbou cez sieť Dash.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Soneet network.</source>
+        <translation>Pripojiť ku vyžiadanej platbe voliteľnú správu, ktorá sa zobrazí, keď bude žiadosť otvorená. Poznámka: Správa nebude poslaná spolu s platbou cez sieť Soneet.</translation>
     </message>
     <message>
         <source>&amp;Message:</source>
@@ -2259,8 +2046,8 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Voliteľný popis ktorý sa pridá k tejto novej prijímajúcej adrese.</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the Dash network.</source>
-        <translation>Pripojiť ku vyžiadanej platbe voliteľnú správu, ktorá sa zobrazí, keď bude žiadosť otvorená. &lt;br&gt;Poznámka: Správa nebude poslaná spolu s platbou cez sieť Dash.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the Soneet network.</source>
+        <translation>Pripojiť ku vyžiadanej platbe voliteľnú správu, ktorá sa zobrazí, keď bude žiadosť otvorená. &lt;br&gt;Poznámka: Správa nebude poslaná spolu s platbou cez sieť Soneet.</translation>
     </message>
     <message>
         <source>Use this form to request payments. All fields are &lt;b&gt;optional&lt;/b&gt;.</source>
@@ -2291,10 +2078,6 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Vyčistiť</translation>
     </message>
     <message>
-        <source>Request InstantSend</source>
-        <translation>Vyžiadať InstantSend</translation>
-    </message>
-    <message>
         <source>Requested payments history</source>
         <translation>História vyžiadaných platieb</translation>
     </message>
@@ -2313,10 +2096,6 @@ https://www.transifex.com/projects/p/dash/</translation>
     <message>
         <source>Remove</source>
         <translation>Odstrániť</translation>
-    </message>
-    <message>
-        <source>Copy URI</source>
-        <translation>Kopírovať URI</translation>
     </message>
     <message>
         <source>Copy label</source>
@@ -2378,18 +2157,6 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Správa</translation>
     </message>
     <message>
-        <source>InstantSend</source>
-        <translation>InstantSend</translation>
-    </message>
-    <message>
-        <source>Yes</source>
-        <translation>Áno</translation>
-    </message>
-    <message>
-        <source>No</source>
-        <translation>Nie</translation>
-    </message>
-    <message>
         <source>Resulting URI too long, try to reduce the text for label / message.</source>
         <translation>Výsledné URI príliš dlhé, skráť text pre názov / správu.</translation>
     </message>
@@ -2413,6 +2180,10 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Správa</translation>
     </message>
     <message>
+        <source>Amount</source>
+        <translation>Suma</translation>
+    </message>
+    <message>
         <source>(no label)</source>
         <translation>(bez popisu)</translation>
     </message>
@@ -2424,16 +2195,12 @@ https://www.transifex.com/projects/p/dash/</translation>
         <source>(no amount)</source>
         <translation>(žiadna suma)</translation>
     </message>
-    <message>
-        <source>Amount</source>
-        <translation>Suma</translation>
-    </message>
 </context>
 <context>
     <name>SendCoinsDialog</name>
     <message>
         <source>Send Coins</source>
-        <translation>Poslať Mince</translation>
+        <translation>Poslať Bitcoins</translation>
     </message>
     <message>
         <source>Coin Control Features</source>
@@ -2464,12 +2231,24 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Suma:</translation>
     </message>
     <message>
+        <source>Priority:</source>
+        <translation>Priorita:</translation>
+    </message>
+    <message>
+        <source>medium</source>
+        <translation>stredné</translation>
+    </message>
+    <message>
         <source>Fee:</source>
         <translation>Poplatok:</translation>
     </message>
     <message>
         <source>Dust:</source>
         <translation>Prach:</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>nie</translation>
     </message>
     <message>
         <source>After Fee:</source>
@@ -2500,12 +2279,8 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>skryť nastavenia poplatkov</translation>
     </message>
     <message>
-        <source>PrivateSend</source>
-        <translation>PrivateSend</translation>
-    </message>
-    <message>
-        <source>InstantSend</source>
-        <translation>InstantSend</translation>
+        <source>Minimize</source>
+        <translation>Minimalizovať</translation>
     </message>
     <message>
         <source>If the custom fee is set to 1000 duffs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 duffs in fee,&lt;br /&gt;while "at least" pays 1000 duffs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
@@ -2516,16 +2291,12 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Ak je vlastný poplatok nastavený na 1000 duffov a transakcia je len 250 bytov, v tom prípade "za kilobajt" zaplatí iba 250 duffov na poplatkoch, &lt;br /&gt;zatiaľ čo "celkovo pri najmenšom" zaplatí 1000 duffov. Pre transakcie väčšie ako jeden kilobajt, obe zaplatia rovnako za kilobajt. </translation>
     </message>
     <message>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for dash transactions than the network can process.</source>
-        <translation>Platenie minimálneho poplatku je v poriadku pokiaľ je objem transakcií menší ako je miesto v bloku. &lt;br /&gt;Buďte opatrný pretože to môže skončiť s nikdy nepotvrdenými transakciami, akonáhle je dopyt po Dash transakciách väčší ako dokáže sieť Dash spracovať.</translation>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for soneet transactions than the network can process.</source>
+        <translation>Platenie minimálneho poplatku je v poriadku pokiaľ je objem transakcií menší ako je miesto v bloku. &lt;br /&gt;Buďte opatrný pretože to môže skončiť s nikdy nepotvrdenými transakciami, akonáhle je dopyt po Soneet transakciách väčší ako dokáže sieť Soneet spracovať.</translation>
     </message>
     <message>
         <source>per kilobyte</source>
-        <translation>za kilobajt</translation>
-    </message>
-    <message>
-        <source>Hide</source>
-        <translation>Skryť</translation>
+        <translation>za kilo-byte </translation>
     </message>
     <message>
         <source>total at least</source>
@@ -2553,11 +2324,11 @@ https://www.transifex.com/projects/p/dash/</translation>
     </message>
     <message>
         <source>normal</source>
-        <translation>normálny</translation>
+        <translation>normálna</translation>
     </message>
     <message>
         <source>fast</source>
-        <translation>rýchly</translation>
+        <translation>rýchla</translation>
     </message>
     <message>
         <source>Send as zero-fee transaction if possible</source>
@@ -2592,6 +2363,14 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>&amp;Pridať príjemcu</translation>
     </message>
     <message>
+        <source>Darksend</source>
+        <translation>Darksend</translation>
+    </message>
+    <message>
+        <source>InstantX</source>
+        <translation>InstantX</translation>
+    </message>
+    <message>
         <source>Balance:</source>
         <translation>Zostatok:</translation>
     </message>
@@ -2616,6 +2395,10 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Kopírovať bajty</translation>
     </message>
     <message>
+        <source>Copy priority</source>
+        <translation>Kopírovať prioritu</translation>
+    </message>
+    <message>
         <source>Copy dust</source>
         <translation>Kopírovať prach</translation>
     </message>
@@ -2632,12 +2415,16 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>anonymne zdroje</translation>
     </message>
     <message>
-        <source>(privatesend requires this amount to be rounded up to the nearest %1).</source>
-        <translation>(PrivateSend vyžaduje aby bola táto suma zaokrúhlená nahor k najbližšej %1).</translation>
+        <source>(darksend requires this amount to be rounded up to the nearest %1).</source>
+        <translation>(Darksend vyžaduje aby bola táto suma zaokrúhlená nahor k najbližšej %1).</translation>
     </message>
     <message>
-        <source>and InstantSend</source>
-        <translation>a InstantSend</translation>
+        <source>any available funds (not recommended)</source>
+        <translation>hociktoré dostupné zdroje (nedoporučuje sa)</translation>
+    </message>
+    <message>
+        <source>and InstantX</source>
+        <translation>a InstantX</translation>
     </message>
     <message>
         <source>%1 to %2</source>
@@ -2645,7 +2432,7 @@ https://www.transifex.com/projects/p/dash/</translation>
     </message>
     <message>
         <source>Are you sure you want to send?</source>
-        <translation>Určite chcete odoslať transakciu?</translation>
+        <translation>Určite to chcete odoslať?</translation>
     </message>
     <message>
         <source>are added as transaction fee</source>
@@ -2656,16 +2443,24 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Celková suma = &lt;b&gt;%1&lt;/b&gt;&lt;br /&gt;= %2</translation>
     </message>
     <message>
+        <source>Confirm send coins</source>
+        <translation>Potvrdiť odoslanie bitcoins</translation>
+    </message>
+    <message>
+        <source>A fee %1 times higher than %2 per kB is considered an insanely high fee.</source>
+        <translation>Poplatok je %1 krát vyšší ako %2 za kB je považovaný za nenormálne vysoký poplatok. </translation>
+    </message>
+    <message numerus="yes">
+        <source>Estimated to begin confirmation within %n block(s).</source>
+        <translation><numerusform>Odhad pre začiatok potvrdzovania je %n blok.</numerusform><numerusform>Odhad pre začiatok potvrdzovania sú %n bloky.</numerusform><numerusform>Odhad pre začiatok potvrdzovania je %n blokov.</numerusform></translation>
+    </message>
+    <message>
+        <source>The recipient address is not valid, please recheck.</source>
+        <translation>Adresa príjemcu je neplatná, prosím, overte ju.</translation>
+    </message>
+    <message>
         <source>&lt;b&gt;(%1 of %2 entries displayed)&lt;/b&gt;</source>
         <translation>&lt;b&gt;(%1 z %2 zobrazených položiek)&lt;/b&gt;</translation>
-    </message>
-    <message>
-        <source>Confirm send coins</source>
-        <translation>Potvrdiť odoslanie mincí</translation>
-    </message>
-    <message>
-        <source>The recipient address is not valid. Please recheck.</source>
-        <translation>Adresa príjemcu je neplatná. Prosím, overte ju.</translation>
     </message>
     <message>
         <source>The amount to pay must be larger than 0.</source>
@@ -2680,8 +2475,8 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Suma celkom prevyšuje Váš zostatok ak sú započítané %1 transakčné poplatky.</translation>
     </message>
     <message>
-        <source>Duplicate address found: addresses should only be used once each.</source>
-        <translation>Našla sa duplicitná adresa: každá adresa by sa mala použiť len raz.</translation>
+        <source>Duplicate address found, can only send to each address once per send operation.</source>
+        <translation>Duplikát adresy objavený, je možné poslať na každú adresu len raz v jednej odchádzajúcej transakcii.</translation>
     </message>
     <message>
         <source>Transaction creation failed!</source>
@@ -2692,24 +2487,16 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Transakcia bola zamietnutá! Toto sa môže stať ak niektoré coins vo vašej peňaženke už boli minuté, ako keď použijete kópiu wallet.dat a coins boli minuté z kópie ale neoznačené ako minuté tu.</translation>
     </message>
     <message>
-        <source>A fee higher than %1 is considered an absurdly high fee.</source>
-        <translation>Poplatok vyšší ako %1 sa považuje za neprimerane vysoký.</translation>
+        <source>Error: The wallet was unlocked only to anonymize coins.</source>
+        <translation>Chyba: Peňaženka bola odomknutá iba pre anonymizáciu mincí.</translation>
     </message>
     <message>
-        <source>Payment request expired.</source>
-        <translation>Vypršala platnosť požiadavky na platbu.</translation>
+        <source>Pay only the minimum fee of %1</source>
+        <translation>Platiť iba minimálny poplatok %1</translation>
     </message>
     <message>
-        <source>Pay only the required fee of %1</source>
-        <translation>Zaplatiť iba požadovaný poplatok %1</translation>
-    </message>
-    <message numerus="yes">
-        <source>Estimated to begin confirmation within %n block(s).</source>
-        <translation><numerusform>Odhad pre začiatok potvrdzovania je %n blok.</numerusform><numerusform>Odhad pre začiatok potvrdzovania sú %n bloky.</numerusform><numerusform>Odhad pre začiatok potvrdzovania je %n blokov.</numerusform></translation>
-    </message>
-    <message>
-        <source>Warning: Invalid Dash address</source>
-        <translation>Upozornenie: Neplatná Dash adresa</translation>
+        <source>Warning: Invalid Soneet address</source>
+        <translation>Upozornenie: Neplatná Soneet adresa</translation>
     </message>
     <message>
         <source>Warning: Unknown change address</source>
@@ -2731,8 +2518,8 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Zapla&amp;tiť:</translation>
     </message>
     <message>
-        <source>The Dash address to send the payment to</source>
-        <translation>Dash adresa pre poslanie platby</translation>
+        <source>The Soneet address to send the payment to</source>
+        <translation>Soneet adresa pre poslanie platby</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2767,24 +2554,16 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Su&amp;ma:</translation>
     </message>
     <message>
-        <source>S&amp;ubtract fee from amount</source>
-        <translation>Odpočítať poplatok od s&amp;umy</translation>
-    </message>
-    <message>
         <source>Message:</source>
         <translation>Správa:</translation>
     </message>
     <message>
-        <source>A message that was attached to the dash: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Dash network.</source>
-        <translation>Správa ktorá bola pripojená ku dash: URI ktorá sa uchová spolu s transakciou pre Vašu referenciu. Poznámka: Táto správa nebude poslaná cez sieť Dash.</translation>
+        <source>A message that was attached to the soneet: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Soneet network.</source>
+        <translation>Správa ktorá bola pripojená ku soneet: URI ktorá sa uchová spolu s transakciou pre Vašu referenciu. Poznámka: Táto správa nebude poslaná cez sieť Soneet.</translation>
     </message>
     <message>
-        <source>This is an unauthenticated payment request.</source>
+        <source>This is an unverified payment request.</source>
         <translation>Toto je neoverená výzva k platbe.</translation>
-    </message>
-    <message>
-        <source>This is an authenticated payment request.</source>
-        <translation>Toto je overená výzva k platbe.</translation>
     </message>
     <message>
         <source>Pay To:</source>
@@ -2795,6 +2574,10 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Poznámka:</translation>
     </message>
     <message>
+        <source>This is a verified payment request.</source>
+        <translation>Toto je overená výzva k platbe.</translation>
+    </message>
+    <message>
         <source>Enter a label for this address to add it to your address book</source>
         <translation>Vložte popis pre túto adresu aby sa pridala do adresára</translation>
     </message>
@@ -2802,8 +2585,8 @@ https://www.transifex.com/projects/p/dash/</translation>
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Dash Core is shutting down...</source>
-        <translation>Dash core sa vypína...</translation>
+        <source>Soneet Core is shutting down...</source>
+        <translation>Soneet core sa vypína...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -2821,8 +2604,12 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>&amp;Podpísať Správu</translation>
     </message>
     <message>
-        <source>The Dash address to sign the message with</source>
-        <translation>Dash adresa na podpísanie správy</translation>
+        <source>You can sign messages with your addresses to prove you own them. Be careful not to sign anything vague, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
+        <translation>Môžete podpísať správy svojou adresou a dokázať, že ju vlastníte. Buďte opatrní a podpíšte len prehlásenia s ktorými plne súhlasíte, nakoľko útoky typu "phishing" Vás môžu lákať k ich podpísaniu.</translation>
+    </message>
+    <message>
+        <source>The Soneet address to sign the message with</source>
+        <translation>Soneet adresa na podpísanie správy</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2842,7 +2629,7 @@ https://www.transifex.com/projects/p/dash/</translation>
     </message>
     <message>
         <source>Enter the message you want to sign here</source>
-        <translation>Vložte správu ktorú chcete podpísať</translation>
+        <translation>Sem vložte správu ktorú chcete podpísať</translation>
     </message>
     <message>
         <source>Signature</source>
@@ -2853,8 +2640,8 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Kopírovať práve zvolenú adresu do systémového klipbordu</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Dash address</source>
-        <translation>Podpísať spravu aby ste dokázali, že vlastníte túto Dash adresu</translation>
+        <source>Sign the message to prove you own this Soneet address</source>
+        <translation>Podpísať spravu aby ste dokázali, že vlastníte túto Soneet adresu</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2873,16 +2660,16 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Overiť správu...</translation>
     </message>
     <message>
-        <source>Enter the receiver's address, message (ensure you copy line breaks, spaces, tabs, etc. exactly) and signature below to verify the message. Be careful not to read more into the signature than what is in the signed message itself, to avoid being tricked by a man-in-the-middle attack. Note that this only proves the signing party receives with the address, it cannot prove sendership of any transaction!</source>
-        <translation>Vložte adresu príjemcu, správu (uistite sa, že presne kopírujete ukončenia riadkov, medzery, odrážky, atď.) a podpis pre potvrdenie správy. Buďte opatrní a nedomýšľajte si viac než je uvedené v samotnej podpísanej správe a môžete sa tak vyhnúť podvodu MITM útokom. Toto len potvrdzuje, že podpisujúca strana môže prijímať na tejto adrese, nepotvrdzuje to vlastníctvo žiadnej transakcie!</translation>
+        <source>Enter the signing address, message (ensure you copy line breaks, spaces, tabs, etc. exactly) and signature below to verify the message. Be careful not to read more into the signature than what is in the signed message itself, to avoid being tricked by a man-in-the-middle attack.</source>
+        <translation>Vložte podpisovaciu adresu, správu (uistite sa, že kopírujete ukončenia riadkov, medzery, odrážky, atď. presne) a podpis pod to na overenie adresy. Buďte opatrní a nečítajte ako podpísané viac než je v samotnej podpísanej správe a môžete sa tak vyhnúť podvodu mitm útokom.</translation>
     </message>
     <message>
-        <source>The Dash address the message was signed with</source>
-        <translation>Adresa Dash s ktorou bola podpísaná správa</translation>
+        <source>The Soneet address the message was signed with</source>
+        <translation>Adresa Soneet s ktorou bola podpísaná správa</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Dash address</source>
-        <translation>Overiť správu pre uistenie, že bola podpísaná zadanou Dash adresou</translation>
+        <source>Verify the message to ensure it was signed with the specified Soneet address</source>
+        <translation>Overiť správu pre uistenie, že bola podpísaná zadanou Soneet adresou</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -2948,12 +2735,8 @@ https://www.transifex.com/projects/p/dash/</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>[testnet]</source>
-        <translation>[testovacia sieť]</translation>
-    </message>
-    <message>
-        <source>Dash Core</source>
-        <translation>Dash Core</translation>
+        <source>Soneet Core</source>
+        <translation>Soneet Core</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -2961,11 +2744,15 @@ https://www.transifex.com/projects/p/dash/</translation>
     </message>
     <message>
         <source>The Bitcoin Core developers</source>
-        <translation>Vývojári Bitcoin Core</translation>
+        <translation>Vývojári jadra Bitcoin</translation>
     </message>
     <message>
-        <source>The Dash Core developers</source>
-        <translation>Vývojári Dash Core</translation>
+        <source>The Soneet Core developers</source>
+        <translation>Vývojári Soneet Core</translation>
+    </message>
+    <message>
+        <source>[testnet]</source>
+        <translation>[testovacia sieť]</translation>
     </message>
 </context>
 <context>
@@ -2990,12 +2777,20 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>sporné</translation>
     </message>
     <message>
-        <source>%1/offline</source>
-        <translation>%1/offline</translation>
+        <source>%1/offline (verified via instantx)</source>
+        <translation>%1/offline (overené pomocou instantx)</translation>
     </message>
     <message>
-        <source>0/unconfirmed, %1</source>
-        <translation>0/nepotvrdené, %1</translation>
+        <source>%1/confirmed (verified via instantx)</source>
+        <translation>%1/potvrdené (overené pomocou instantx)</translation>
+    </message>
+    <message>
+        <source>%1 confirmations (verified via instantx)</source>
+        <translation>%1 potvrdení (overené pomocou instantx)</translation>
+    </message>
+    <message>
+        <source>%1/offline</source>
+        <translation>%1/offline</translation>
     </message>
     <message>
         <source>%1/unconfirmed</source>
@@ -3006,16 +2801,24 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>%1 potvrdení</translation>
     </message>
     <message>
-        <source>verified via InstantSend</source>
-        <translation>overené cez InstantSend</translation>
+        <source>%1/offline (InstantX verification in progress - %2 of %3 signatures)</source>
+        <translation>%1/offline (Prebieha overovanie InstantX - %2 z %3 podpisov)</translation>
     </message>
     <message>
-        <source>InstantSend verification in progress - %1 of %2 signatures</source>
-        <translation>Prebieha overovanie InstantSend - %1 z %2 podpisov</translation>
+        <source>%1/confirmed (InstantX verification in progress - %2 of %3 signatures )</source>
+        <translation>%1/potvrdené (Prebieha overovanie InstantX - %2 z %3 podpisov)</translation>
     </message>
     <message>
-        <source>InstantSend verification failed</source>
-        <translation>InstantSend overenie zlyhalo</translation>
+        <source>%1 confirmations (InstantX verification in progress - %2 of %3 signatures)</source>
+        <translation>%1 potvrdení (Prebieha overovanie InstantX - %2 z %3 podpisov)</translation>
+    </message>
+    <message>
+        <source>%1/offline (InstantX verification failed)</source>
+        <translation>%1/offline (Overovanie InstantX zlyhalo)</translation>
+    </message>
+    <message>
+        <source>%1/confirmed (InstantX verification failed)</source>
+        <translation>%1/potvrdené (Overovanie InstantX zlyhalo)</translation>
     </message>
     <message>
         <source>Status</source>
@@ -3110,10 +2913,6 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>ID transakcie</translation>
     </message>
     <message>
-        <source>Transaction total size</source>
-        <translation>Celková veľkosť transakcie</translation>
-    </message>
-    <message>
         <source>Merchant</source>
         <translation>Kupec</translation>
     </message>
@@ -3168,8 +2967,8 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Typ</translation>
     </message>
     <message>
-        <source>Address / Label</source>
-        <translation>Adresa / Popis</translation>
+        <source>Address</source>
+        <translation>Adresa</translation>
     </message>
     <message numerus="yes">
         <source>Open for %n more block(s)</source>
@@ -3213,15 +3012,15 @@ https://www.transifex.com/projects/p/dash/</translation>
     </message>
     <message>
         <source>Received with</source>
-        <translation>Prijaté z</translation>
+        <translation>Prijaté s</translation>
     </message>
     <message>
         <source>Received from</source>
         <translation>Prijaté od:</translation>
     </message>
     <message>
-        <source>Received via PrivateSend</source>
-        <translation>Prijaté cez PrivateSend</translation>
+        <source>Received via Darksend</source>
+        <translation>Prijaté cez Darksend</translation>
     </message>
     <message>
         <source>Sent to</source>
@@ -3233,27 +3032,27 @@ https://www.transifex.com/projects/p/dash/</translation>
     </message>
     <message>
         <source>Mined</source>
-        <translation>Vyťažené</translation>
+        <translation>Vyfárané</translation>
     </message>
     <message>
-        <source>PrivateSend Denominate</source>
-        <translation>Denominácia PrivateSend</translation>
+        <source>Darksend Denominate</source>
+        <translation>Denominácia Darksend</translation>
     </message>
     <message>
-        <source>PrivateSend Collateral Payment</source>
-        <translation>Zaisťovacia PrivateSend platba</translation>
+        <source>Darksend Collateral Payment</source>
+        <translation>Zaisťovacia Darksend platba</translation>
     </message>
     <message>
-        <source>PrivateSend Make Collateral Inputs</source>
-        <translation>Uskutočnené zaisťovacie PrivateSend vstupy</translation>
+        <source>Darksend Make Collateral Inputs</source>
+        <translation>Darksend uskutočnil zaisťovacie vstupy</translation>
     </message>
     <message>
-        <source>PrivateSend Create Denominations</source>
-        <translation>Vytvorené denominácie PrivateSend</translation>
+        <source>Darksend Create Denominations</source>
+        <translation>Vytvoriť denominácie Darksend</translation>
     </message>
     <message>
-        <source>PrivateSend</source>
-        <translation>PrivateSend</translation>
+        <source>Darksent</source>
+        <translation>Darksent</translation>
     </message>
     <message>
         <source>watch-only</source>
@@ -3262,10 +3061,6 @@ https://www.transifex.com/projects/p/dash/</translation>
     <message>
         <source>(n/a)</source>
         <translation>(n/a)</translation>
-    </message>
-    <message>
-        <source>(no label)</source>
-        <translation>(bez popisu)</translation>
     </message>
     <message>
         <source>Transaction status. Hover over this field to show number of confirmations.</source>
@@ -3282,6 +3077,10 @@ https://www.transifex.com/projects/p/dash/</translation>
     <message>
         <source>Whether or not a watch-only address is involved in this transaction.</source>
         <translation>Či sú ale nie sú, adresy iba na sledovanie zahrnuté v tejto transakcii.</translation>
+    </message>
+    <message>
+        <source>Destination address of transaction.</source>
+        <translation>Cieľová adresa transakcie.</translation>
     </message>
     <message>
         <source>Amount removed from or added to balance.</source>
@@ -3324,31 +3123,31 @@ https://www.transifex.com/projects/p/dash/</translation>
     </message>
     <message>
         <source>Received with</source>
-        <translation>Prijaté z</translation>
+        <translation>Prijaté s</translation>
     </message>
     <message>
         <source>Sent to</source>
         <translation>Odoslané na</translation>
     </message>
     <message>
-        <source>PrivateSend</source>
-        <translation>PrivateSend</translation>
+        <source>Darksent</source>
+        <translation>Darksent</translation>
     </message>
     <message>
-        <source>PrivateSend Make Collateral Inputs</source>
-        <translation>Uskutočnené zaisťovacie PrivateSend vstupy</translation>
+        <source>Darksend Make Collateral Inputs</source>
+        <translation>Darksend uskutočnil zaisťovacie vstupy</translation>
     </message>
     <message>
-        <source>PrivateSend Create Denominations</source>
-        <translation>Vytvorené denominácie PrivateSend</translation>
+        <source>Darksend Create Denominations</source>
+        <translation>Vytvoriť denominácie Darksend</translation>
     </message>
     <message>
-        <source>PrivateSend Denominate</source>
-        <translation>Denominácia PrivateSend</translation>
+        <source>Darksend Denominate</source>
+        <translation>Denominácia Darksend</translation>
     </message>
     <message>
-        <source>PrivateSend Collateral Payment</source>
-        <translation>Zaisťovacia PrivateSend platba</translation>
+        <source>Darksend Collateral Payment</source>
+        <translation>Zaisťovacia Darksend platba</translation>
     </message>
     <message>
         <source>To yourself</source>
@@ -3356,7 +3155,7 @@ https://www.transifex.com/projects/p/dash/</translation>
     </message>
     <message>
         <source>Mined</source>
-        <translation>Vyťažené</translation>
+        <translation>Vyfárané</translation>
     </message>
     <message>
         <source>Other</source>
@@ -3385,14 +3184,6 @@ https://www.transifex.com/projects/p/dash/</translation>
     <message>
         <source>Copy transaction ID</source>
         <translation>Kopírovať ID transakcie</translation>
-    </message>
-    <message>
-        <source>Copy raw transaction</source>
-        <translation>Skopírovať neupravenú transakciu</translation>
-    </message>
-    <message>
-        <source>Copy full transaction details</source>
-        <translation>Kopírovať všetky podrobnosti o transakcii</translation>
     </message>
     <message>
         <source>Edit label</source>
@@ -3481,13 +3272,13 @@ https://www.transifex.com/projects/p/dash/</translation>
     <name>WalletModel</name>
     <message>
         <source>Send Coins</source>
-        <translation>Poslať Mince</translation>
+        <translation>Poslať Bitcoins</translation>
     </message>
     <message>
-        <source>InstantSend doesn't support sending values that high yet. Transactions are currently limited to %1 DASH.</source>
-        <translation>InstantSend zatiaľ nepodporuje posielanie takto vysokých čiastok. Transakcie sú limitované na %1 DASH.</translation>
+        <source>InstantX doesn't support sending values that high yet. Transactions are currently limited to %1 SONEET.</source>
+        <translation>InstantX zatiaľ nepodporuje posielanie takto vysokých čiastok. Transakcie sú limitované na %1 SONEET.</translation>
     </message>
-    </context>
+</context>
 <context>
     <name>WalletView</name>
     <message>
@@ -3528,14 +3319,22 @@ https://www.transifex.com/projects/p/dash/</translation>
     </message>
 </context>
 <context>
-    <name>dash-core</name>
+    <name>soneet-core</name>
     <message>
         <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>
         <translation>Spojiť s danou adresou a vždy na nej počúvať. Použite zápis [host]:port pre IPv6</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. Dash Core is probably already running.</source>
-        <translation>Nedá sa zamknúť dátový adresár %s. Dash Core už pravdepodobne beží.</translation>
+        <source>Cannot obtain a lock on data directory %s. Soneet Core is probably already running.</source>
+        <translation>Nedá sa zamknúť dátový adresár %s. Soneet Core už pravdepodobne beží.</translation>
+    </message>
+    <message>
+        <source>Darksend uses exact denominated amounts to send funds, you might simply need to anonymize some more coins.</source>
+        <translation>Pre poslanie zdrojov používa Darksend presné sumy, potrebujete jednoducho anonymizovať viac mincí. </translation>
+    </message>
+    <message>
+        <source>Enter regression test mode, which uses a special chain in which blocks can be solved instantly.</source>
+        <translation>Vstúpiť do regresného testovacieho módu, ktorý používa špeciálny reťazec blokov, kde sa dajú bloky ťažiť okamžite.</translation>
     </message>
     <message>
         <source>Error: Listening for incoming connections failed (listen returned error %s)</source>
@@ -3552,6 +3351,14 @@ https://www.transifex.com/projects/p/dash/</translation>
     <message>
         <source>Execute command when the best block changes (%s in cmd is replaced by block hash)</source>
         <translation>Vykonaj príkaz, ak zmeny v najlepšom bloku (%s v príkaze nahradí blok hash)</translation>
+    </message>
+    <message>
+        <source>In this mode -genproclimit controls how many blocks are generated immediately.</source>
+        <translation>V tomto móde -genproclimit kontroluje počet blokov, ktoré sú vygenerované okamžite.</translation>
+    </message>
+    <message>
+        <source>InstantX requires inputs with at least 6 confirmations, you might need to wait a few minutes and try again.</source>
+        <translation>InstantX vyžaduje vstupy s aspoň 6 potvrdeniami, môžete počkať pár minút a skúsiť znova.</translation>
     </message>
     <message>
         <source>Name to construct url for KeePass entry that stores the wallet passphrase</source>
@@ -3574,8 +3381,20 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Toto je predbežná testovacia zostava - používate na vlastné riziko - nepoužívajte na ťaženie alebo obchodné aplikácie</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. Dash Core is probably already running.</source>
-        <translation>Nedá sa viazať ku %s na tomto počítači. Dash Core už pravdepodobne beží.</translation>
+        <source>Unable to bind to %s on this computer. Soneet Core is probably already running.</source>
+        <translation>Nedá sa viazať ku %s na tomto počítači. Soneet Core už pravdepodobne beží.</translation>
+    </message>
+    <message>
+        <source>Unable to locate enough Darksend denominated funds for this transaction.</source>
+        <translation>Nedá sa nájsť dostatok denominácií Darksend pre túto transakciu. </translation>
+    </message>
+    <message>
+        <source>Unable to locate enough Darksend non-denominated funds for this transaction that are not equal 1000 SONEET.</source>
+        <translation>Nedá sa nájsť dostatok ne-denominovaných Darksend zdrojov pre túto transakciu, ktoré nie sú rovné 1000 SONEET.</translation>
+    </message>
+    <message>
+        <source>Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</source>
+        <translation>Upozornenie: -paytxfee je nastavené veľmi vysoko. Toto sú transakčné poplatky ktoré zaplatíte ak odošlete transakciu.</translation>
     </message>
     <message>
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
@@ -3586,12 +3405,20 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Varovanie: Zjavne sa úplne nezhodujeme s našimi peer-mi! Možno potrebujete prejsť na novšiu verziu alebo ostatné uzly potrebujú vyššiu verziu.</translation>
     </message>
     <message>
+        <source>Warning: error reading wallet.dat! All keys read correctly, but transaction data or address book entries might be missing or incorrect.</source>
+        <translation>Upozornenie: Chyba pri čítaní wallet.dat! Všetky kľúče načítané správne, ale transakčné dáta alebo položky adresára môže chýbať alebo byť nesprávne.</translation>
+    </message>
+    <message>
         <source>Warning: wallet.dat corrupt, data salvaged! Original wallet.dat saved as wallet.{timestamp}.bak in %s; if your balance or transactions are incorrect you should restore from a backup.</source>
         <translation>Upozornenie: wallet.dat poškodený, údaje zachránené! Pôvodný wallet.dat bol uložený ako wallet.{timestamp}.bak v %s; ak váš zostatok alebo transakcie nie sú správne, mali by ste obnoviť zo zálohy.</translation>
     </message>
     <message>
         <source>You must specify a masternodeprivkey in the configuration. Please see documentation for help.</source>
         <translation>V konfigurácii musíte špecifikovať masternodeprivkey. Pre pomoc sa prosím pozrite do dokumentácie.</translation>
+    </message>
+    <message>
+        <source>(default: 1)</source>
+        <translation>(predvolené: 1)</translation>
     </message>
     <message>
         <source>Accept command line and JSON-RPC commands</source>
@@ -3614,8 +3441,16 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Tento vstup už máme.</translation>
     </message>
     <message>
+        <source>Attempt to recover private keys from a corrupt wallet.dat</source>
+        <translation>Pokus obnoviť súkromné kľúče z poškodeného wallet.dat</translation>
+    </message>
+    <message>
         <source>Block creation options:</source>
         <translation>Možnosti vytvorenia bloku:</translation>
+    </message>
+    <message>
+        <source>Can't denominate: no compatible inputs left.</source>
+        <translation>Nedá sa denominovať: nezostávajú žiadne kompatibilné vstupy.</translation>
     </message>
     <message>
         <source>Cannot downgrade wallet</source>
@@ -3654,8 +3489,16 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Zistený poškodený blok databázy</translation>
     </message>
     <message>
+        <source>Darksend options:</source>
+        <translation>Možnosti Darksend:</translation>
+    </message>
+    <message>
         <source>Debugging/Testing options:</source>
         <translation>Možnosti Ladenia/Testovania:</translation>
+    </message>
+    <message>
+        <source>Discover own IP address (default: 1 when listening and no -externalip)</source>
+        <translation>Odhaliť vlastnú IP adresu (predvolené: 1 pri počúvanie a bez -externalip)</translation>
     </message>
     <message>
         <source>Do not load the wallet and disable wallet RPC calls</source>
@@ -3702,6 +3545,10 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Chyba pri načítaní z databázy, ukončuje sa.</translation>
     </message>
     <message>
+        <source>Error recovering public key.</source>
+        <translation>Chyba pri obnovovaní verejného kľúča.</translation>
+    </message>
+    <message>
         <source>Error</source>
         <translation>Chyba</translation>
     </message>
@@ -3710,20 +3557,36 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Chyba: Nedostatok miesta na disku!</translation>
     </message>
     <message>
+        <source>Error: Wallet locked, unable to create transaction!</source>
+        <translation>Chyba: Peňaženka je zamknutá, transakcia sa nedá vytvoriť!</translation>
+    </message>
+    <message>
+        <source>Error: You already have pending entries in the Darksend pool</source>
+        <translation>Chyba: Už máte čakajúce položky vo fronte Darksend</translation>
+    </message>
+    <message>
         <source>Failed to listen on any port. Use -listen=0 if you want this.</source>
-        <translation>Nepodarilo sa počúvať na žiadnom porte. Použite -listen=0 ak to takto chcete.</translation>
+        <translation>Nepodarilo sa počúvať žiadnom porte. Použite -listen=0 ak to chcete.</translation>
+    </message>
+    <message>
+        <source>Failed to read block</source>
+        <translation>Načítanie bloku zlyhalo</translation>
+    </message>
+    <message>
+        <source>If &lt;category&gt; is not supplied, output all debugging information.</source>
+        <translation>If &lt;category&gt; is not supplied, output all debugging information.</translation>
     </message>
     <message>
         <source>(1 = keep tx meta data e.g. account owner and payment request information, 2 = drop tx meta data)</source>
         <translation>(1 = zachovať metaúdaje tx napr. vlastníka účtu a informácie o platobných príkazoch, 2 = zahodiť metaúdaje tx)</translation>
     </message>
     <message>
-        <source>Accept relayed transactions received from whitelisted peers even when not relaying transactions (default: %d)</source>
-        <translation>Akceptovať postúpené transakcie od povolených partnerov aj keď normálne nepostupujete transakcie (predvolené: %d)</translation>
-    </message>
-    <message>
         <source>Allow JSON-RPC connections from specified source. Valid for &lt;ip&gt; are a single IP (e.g. 1.2.3.4), a network/netmask (e.g. 1.2.3.4/255.255.255.0) or a network/CIDR (e.g. 1.2.3.4/24). This option can be specified multiple times</source>
         <translation>Povoliť JSON-RPC pripojenia zo zadaného zdroja. Pre &lt;ip&gt; sú platné jednoduché IP (napr. 1.2.3.4), sieť/netmask (napr. 1.2.3.4/255.255.255.0) alebo sieť/CIDR (napr. 1.2.3.4/24). Táto možnosť môže byť zadaná niekoľko krát</translation>
+    </message>
+    <message>
+        <source>An error occurred while setting up the RPC address %s port %u for listening: %s</source>
+        <translation>Pri nastavovaní RPC adresy %s na porte %u pre počúvanie došlo k chybe: %s</translation>
     </message>
     <message>
         <source>Bind to given address and whitelist peers connecting to it. Use [host]:port notation for IPv6</source>
@@ -3734,6 +3597,14 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Spojiť s danou adresou pre počúvanie JSON-RPC spojení. Použite zápis [host]:port pre IPv6. Táto možnosť môže byt zadaná niekoľko krát (predvolené: spojiť so všetkými rozhraniami)</translation>
     </message>
     <message>
+        <source>Change automatic finalized budget voting behavior. mode=auto: Vote for only exact finalized budget match to my generated budget. (string, default: auto)</source>
+        <translation>Zmeniť vlastnosť hlasovania automaticky dokončených rozpočtov. mód=auto: Hlasovať iba pre konkrétny dokončený rozpočet, ktorý sa zhoduje mojím vygenerovaným rozpočtom. (reťazec, predvolené: auto)</translation>
+    </message>
+    <message>
+        <source>Continuously rate-limit free transactions to &lt;n&gt;*1000 bytes per minute (default:%u)</source>
+        <translation>Nepretržite vyhodnocuj a limituj transakcie bez poplatku na &lt;n&gt;*1000 bajtov za minútu (predvolené:%u)</translation>
+    </message>
+    <message>
         <source>Create new files with system default permissions, instead of umask 077 (only effective with disabled wallet functionality)</source>
         <translation>Vytvoriť nové súbory z predvolenými systémovými právami, namiesto umask 077 (funguje iba z vypnutou funkcionalitou peňaženky)</translation>
     </message>
@@ -3742,8 +3613,36 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Vymazať všetky transakcie z peňaženky a pri spustení znova získať z reťazca blokov iba tie získané pomocou -rescan</translation>
     </message>
     <message>
+        <source>Disable all Soneet specific functionality (Masternodes, Darksend, InstantX, Budgeting) (0-1, default: %u)</source>
+        <translation>Vypnúť všetky funkcie špecifické pre Soneet (Masternode, Darksend, InstantX, Rozpočty) (0-1, predvolené: %u)</translation>
+    </message>
+    <message>
         <source>Distributed under the MIT software license, see the accompanying file COPYING or &lt;http://www.opensource.org/licenses/mit-license.php&gt;.</source>
         <translation>Distribuované pod softvérovou licenciou MIT, viď sprievodný súbor COPYING alebo &lt;http://www.opensource.org/licenses/mit-license.php&gt;.</translation>
+    </message>
+    <message>
+        <source>Enable instantx, show confirmations for locked transactions (bool, default: %s)</source>
+        <translation>Zapnúť InstantX, ukázať potvrdenia pre zamknuté transakcie (bool, predvolené: %s)</translation>
+    </message>
+    <message>
+        <source>Enable use of automated darksend for funds stored in this wallet (0-1, default: %u)</source>
+        <translation>Povoliť používanie automatického darksend pre zdroje uložené v tejto peňaženke (0-1, predvolené: %u)</translation>
+    </message>
+    <message>
+        <source>Error: Unsupported argument -socks found. Setting SOCKS version isn't possible anymore, only SOCKS5 proxies are supported.</source>
+        <translation>Chyba: Nájdený nepodporovaný argument -socks. Nastavenie SOCKS verzie nie je už možné, podporované sú už iba proxy SOCKS5.</translation>
+    </message>
+    <message>
+        <source>Fees (in SONEET/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
+        <translation>Poplatky (v SONEET za Kb) menšie ako toto, sú považované za nulový poplatok pre prenos (predvolené: %s)</translation>
+    </message>
+    <message>
+        <source>Fees (in SONEET/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
+        <translation>Poplatky (v SONEET za Kb) menšie ako toto, sú považované za nulový transakčný poplatok (predvolené: %s)</translation>
+    </message>
+    <message>
+        <source>Flush database activity from memory pool to disk log every &lt;n&gt; megabytes (default: %u)</source>
+        <translation>Vyprázdniť databázovú aktivitu s pamäte do diskového logu každých &lt;n&gt; megabajtov (predvolené: %u)</translation>
     </message>
     <message>
         <source>Found unconfirmed denominated outputs, will wait till they confirm to continue.</source>
@@ -3762,12 +3661,20 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Neplatná suma pre -maxtxfee=&lt;amount&gt;: '%s' (aby sa transakcia nezasekla, minimálny prenosový poplatok musí byť aspoň %s)</translation>
     </message>
     <message>
+        <source>Log transaction priority and fee per kB when mining blocks (default: %u)</source>
+        <translation>Zaznamenať prioritu transakcií a poplatok za kB pri ťažbe blokov (predvolené: %u)</translation>
+    </message>
+    <message>
         <source>Maintain a full transaction index, used by the getrawtransaction rpc call (default: %u)</source>
         <translation>Udržiavať kompletný transakčný index, využíva getrawtransaction rpc volanie (predvolené: %u)</translation>
     </message>
     <message>
         <source>Maximum size of data in data carrier transactions we relay and mine (default: %u)</source>
         <translation>Maximálna veľkosť dát v transakciách nosných dát, ktoré prenášame a ťažíme (predvolené: %u)</translation>
+    </message>
+    <message>
+        <source>Maximum total fees to use in a single wallet transaction, setting too low may abort large transactions (default: %s)</source>
+        <translation>Celkové maximum poplatkov pre použitie jednej transakcie peňaženky. Príliš malá hodnota môže prerušiť veľké transakcie (predvolené: %s)</translation>
     </message>
     <message>
         <source>Number of seconds to keep misbehaving peers from reconnecting (default: %u)</source>
@@ -3778,24 +3685,68 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Výstupné ladiace informácie (predvolené: %u, dodanie &lt;category&gt; je voliteľné)</translation>
     </message>
     <message>
+        <source>Provide liquidity to Darksend by infrequently mixing coins on a continual basis (0-100, default: %u, 1=very frequent, high fees, 100=very infrequent, low fees)</source>
+        <translation>Poskytnúť likviditu pre Darksend nepravidelným miešaním mincí na kontinuálnej báze (0-100, predvolené: %u, 1=veľmi často, vysoké poplatky, 100=veľmi zriedkavo, malé poplatky)</translation>
+    </message>
+    <message>
+        <source>Require high priority for relaying free or low-fee transactions (default:%u)</source>
+        <translation>Vyžaduje sa vysoká priorita pre prenos poplatku alebo transakcie s malým poplatkom (predvolené:%u)</translation>
+    </message>
+    <message>
+        <source>Send trace/debug info to console instead of debug.log file (default: %u)</source>
+        <translation>Poslať sledovacie/ladiace informácie konzole namiesto debug.log súboru (predvolené: %u)</translation>
+    </message>
+    <message>
         <source>Set the number of threads for coin generation if enabled (-1 = all cores, default: %d)</source>
         <translation>Nastaviť počet vlákien pre generáciu mincí (-1 = všetky jadrá, predvolené: %d)</translation>
     </message>
     <message>
-        <source>Show N confirmations for a successfully locked transaction (0-9999, default: %u)</source>
-        <translation>Ukázať N potvrdení pre úspešne zamknutú transakciu (0-9999, predvolené: %u)</translation>
+        <source>Show N confirmations for a successfully locked transaction (0-2901, default: %u)</source>
+        <translation>Ukázať N potvrdení pre úspešne zamknutú transakciu (0-2901, predvolené: %u)</translation>
     </message>
     <message>
         <source>This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit &lt;https://www.openssl.org/&gt; and cryptographic software written by Eric Young and UPnP software written by Thomas Bernard.</source>
         <translation>Tento produkt obsahuje softvér vyvinutý projektom OpenSSL pre použitie sady nástrojov OpenSSL &lt;https://www.openssl.org/&gt; a kryptografického softvéru napísaného Eric Young a UPnP softvér napísaný Thomas Bernard.</translation>
     </message>
     <message>
-        <source>Unable to locate enough funds for this transaction that are not equal 1000 DASH.</source>
-        <translation>Nenašiel sa dostatok prostriedkov pre túto transakciu, ktorú nie sú rovné 1000 DASH.</translation>
+        <source>To use soneetd, or the -server option to soneet-qt, you must set an rpcpassword in the configuration file:
+%s
+It is recommended you use the following random password:
+rpcuser=soneetrpc
+rpcpassword=%s
+(you do not need to remember this password)
+The username and password MUST NOT be the same.
+If the file does not exist, create it with owner-readable-only file permissions.
+It is also recommended to set alertnotify so you are notified of problems;
+for example: alertnotify=echo %%s | mail -s "Soneet Alert" admin@foo.com
+</source>
+        <translation>Pre použitie možnosti -server pre soneet-qt, musíte nastaviť rpcpassword v konfiguračnom súbore:
+%s
+Doporučuje sa použiť nasledovné náhodné heslo:
+rpcuser=soneetrpc
+rpcpassword=%s
+(toto heslo si nemusíte pamätať)
+Používateľské meno a heslo NEMÔŽU byť rovnaké.
+Ak súbor neexistuje, vytvoriť na nastaviť práva tak aby ho mohol čítať iba vlastník.
+Tiež sa doporučuje nastaviť alertnotify, aby ste boli upozornený na problém,
+napríklad: alertnotify=echo %%s | mail -s "Soneet Upozornenie" admin@foo.com
+</translation>
+    </message>
+    <message>
+        <source>Unable to locate enough funds for this transaction that are not equal 1000 SONEET.</source>
+        <translation>Nenašiel sa dostatok prostriedkov pre túto transakciu, ktorú nie sú rovné 1000 SONEET.</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: %s)</source>
         <translation>Použiť samostatný SOCKS5 proxy server na dosiahnutie počítačov cez skryté služby Tor (predvolené: %s)</translation>
+    </message>
+    <message>
+        <source>Warning: -maxtxfee is set very high! Fees this large could be paid on a single transaction.</source>
+        <translation>Upozornenie: -maxtxfee je nastavené príliš vysoko! Takto vysoké poplatky by mali byť zaplatené za jednu transakciu.</translation>
+    </message>
+    <message>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Soneet Core will not work properly.</source>
+        <translation>Upozornenie: Skontrolujte si prosím či máte správny čas a dátum na Vašom počítači. Ak je Vaše nastavenie zlé, Soneet Core nebude pracovať správne.</translation>
     </message>
     <message>
         <source>Whitelist peers connecting from the given netmask or IP address. Can be specified multiple times.</source>
@@ -3806,12 +3757,26 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Uzle na zoznam povolených nemôžu byť DoS zakázané a ich transakcie vždy postúpené ďalej, aj v prípade, ak sú už pamäťovej fronte. Užitočné napr. pre brány</translation>
     </message>
     <message>
+        <source>(2901 could be used only on mainnet)</source>
+        <translation>(2901 nemôže byť použité pre hlavnú sieť)</translation>
+    </message>
+    <message>
         <source>(default: %s)</source>
         <translation>(predvolené: %s)</translation>
     </message>
     <message>
+        <source>&lt;category&gt; can be:
+</source>
+        <translation>&lt;category&gt; môže byť:
+</translation>
+    </message>
+    <message>
         <source>Accept public REST requests (default: %u)</source>
         <translation>Akceptovať verejné REST žiadosti (predvolené: %u)</translation>
+    </message>
+    <message>
+        <source>Acceptable ciphers (default: %s)</source>
+        <translation>Prijateľné šifry (predvolené: %s)</translation>
     </message>
     <message>
         <source>Always query for peer addresses via DNS lookup (default: %u)</source>
@@ -3831,11 +3796,31 @@ https://www.transifex.com/projects/p/dash/</translation>
     </message>
     <message>
         <source>Copyright (C) 2009-%i The Bitcoin Core Developers</source>
-        <translation>Autorské práva (C) 2009-%i Vývojári Bitcoin Core</translation>
+        <translation>Autorské práva (C) 2009-%i Vývojári jadra Bitcoin</translation>
     </message>
     <message>
-        <source>Copyright (C) 2014-%i The Dash Core Developers</source>
-        <translation>Autorské práva (C) 2014-%i Vývojári jadra Dash</translation>
+        <source>Copyright (C) 2014-%i The Soneet Core Developers</source>
+        <translation>Autorské práva (C) 2014-%i Vývojári jadra Soneet</translation>
+    </message>
+    <message>
+        <source>Could not parse -rpcbind value %s as network address</source>
+        <translation>Nedá sa analyzovať -rpcbind hodnota %s ako sieťová adresa</translation>
+    </message>
+    <message>
+        <source>Darksend is idle.</source>
+        <translation>Darksend je nečinný.</translation>
+    </message>
+    <message>
+        <source>Darksend request complete:</source>
+        <translation>Darksend požiadavok dokončený:</translation>
+    </message>
+    <message>
+        <source>Darksend request incomplete:</source>
+        <translation>Darksend požiadavok nedokončený:</translation>
+    </message>
+    <message>
+        <source>Disable safemode, override a real safe mode event (default: %u)</source>
+        <translation>Vypnúť núdzový režim, prepísať skutočnú udalosť núdzového režimu (predvolené: %u)</translation>
     </message>
     <message>
         <source>Enable the client to act as a masternode (0-1, default: %u)</source>
@@ -3846,8 +3831,32 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Chyba pripojenia k Masternode.</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of Dash Core</source>
-        <translation>Chyba pri načítaní wallet.dat: Peňaženka vyžaduje novšiu verziu Dash Core</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Soneet Core</source>
+        <translation>Chyba pri načítaní wallet.dat: Peňaženka vyžaduje novšiu verziu Soneet Core</translation>
+    </message>
+    <message>
+        <source>Error: A fatal internal error occured, see debug.log for details</source>
+        <translation>Chyba: Nastala fatálna interná chyba. Pre podrobnosti pozrite debug.log</translation>
+    </message>
+    <message>
+        <source>Error: Can't select current denominated inputs</source>
+        <translation>Chyba: Nedajú sa vybrať súčasné denominované vstupy </translation>
+    </message>
+    <message>
+        <source>Error: Unsupported argument -tor found, use -onion.</source>
+        <translation>Chyba: nájdený nepodporovaný argument -tor, použite -onion.</translation>
+    </message>
+    <message>
+        <source>Fee (in SONEET/kB) to add to transactions you send (default: %s)</source>
+        <translation>Pridať poplatok (v SONEET za kB) do transakcií ktoré posielate (predvolené: %s)</translation>
+    </message>
+    <message>
+        <source>Finalizing transaction.</source>
+        <translation>Dokončuje sa transakcia.</translation>
+    </message>
+    <message>
+        <source>Force safe mode (default: %u)</source>
+        <translation>Vynútiť núdzový režim (predvolené: %u)</translation>
     </message>
     <message>
         <source>Found enough users, signing ( waiting %s )</source>
@@ -3870,6 +3879,10 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Importuje sa...</translation>
     </message>
     <message>
+        <source>Imports blocks from external blk000??.dat file</source>
+        <translation>Importovať bloky z externého blk000??.dat súboru</translation>
+    </message>
+    <message>
         <source>Include IP addresses in debug output (default: %u)</source>
         <translation>Zahrnúť IP adresy v ladiacom výstupe (predvolené: %u)</translation>
     </message>
@@ -3887,15 +3900,19 @@ https://www.transifex.com/projects/p/dash/</translation>
     </message>
     <message>
         <source>Information</source>
-        <translation>Informácie</translation>
+        <translation>Informácia</translation>
     </message>
     <message>
-        <source>Initialization sanity check failed. Dash Core is shutting down.</source>
-        <translation>Inicializácia kontroly zdravia zlyhala. Dash Core sa vypína.</translation>
+        <source>Initialization sanity check failed. Soneet Core is shutting down.</source>
+        <translation>Inicializácia kontroly zdravia zlyhala. Soneet Core sa vypína.</translation>
     </message>
     <message>
         <source>Input is not valid.</source>
         <translation>Vstup nie je platný.</translation>
+    </message>
+    <message>
+        <source>InstantX options:</source>
+        <translation>Možnosti InstantX:</translation>
     </message>
     <message>
         <source>Insufficient funds.</source>
@@ -3930,6 +3947,14 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Neplatná suma pre -paytxfee=&lt;amount&gt;: '%s'</translation>
     </message>
     <message>
+        <source>Last successful Darksend action was too recent.</source>
+        <translation>Posledná Dasksend akcia bola pred chvíľou.</translation>
+    </message>
+    <message>
+        <source>Limit size of signature cache to &lt;n&gt; entries (default: %u)</source>
+        <translation>Obmedziť veľkosť podpisovej vyrovnávajúcej pamäti na &lt;n&gt; položiek (predvolené: %u)</translation>
+    </message>
+    <message>
         <source>Listen for JSON-RPC connections on &lt;port&gt; (default: %u or testnet: %u)</source>
         <translation>Počúvať JSON-RPC pripojenia na &lt;port&gt; (predvolené: %u alebo testovacia sieť: %u)</translation>
     </message>
@@ -3938,8 +3963,8 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Počúvať pripojenia na &lt;port&gt; (predvolené: %u alebo testovacia sieť: %u)</translation>
     </message>
     <message>
-        <source>Loading banlist...</source>
-        <translation>Načítavam banlist...</translation>
+        <source>Loading budget cache...</source>
+        <translation>Načíta sa vyrovnávacia pamäť rozpočtu...</translation>
     </message>
     <message>
         <source>Loading masternode cache...</source>
@@ -3956,6 +3981,10 @@ https://www.transifex.com/projects/p/dash/</translation>
     <message>
         <source>Lock masternodes from masternode configuration file (default: %u)</source>
         <translation>Zamknúť masternody z konfiguračného súboru masternode (predvolené: %u)</translation>
+    </message>
+    <message>
+        <source>Maintain at most &lt;n&gt; connections to peers (default: %u)</source>
+        <translation>Udržiavať najviac &lt;n&gt; spojení s inými počítačmi (predvolené: %u)</translation>
     </message>
     <message>
         <source>Maximum per-connection receive buffer, &lt;n&gt;*1000 bytes (default: %u)</source>
@@ -3986,24 +4015,24 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Nie je v zozname Masternode.</translation>
     </message>
     <message>
-        <source>Only connect to nodes in network &lt;net&gt; (ipv4, ipv6 or onion)</source>
-        <translation>Pripojiť iba k uzlom v sieti &lt;net&gt; (ipv4, ipv6, alebo onion)</translation>
+        <source>Number of automatic wallet backups (default: 10)</source>
+        <translation>Počet automatických záloh peňaženky (predvolené: 10)</translation>
     </message>
     <message>
-        <source>Port: %d</source>
-        <translation>Port: %d</translation>
+        <source>Only accept block chain matching built-in checkpoints (default: %u)</source>
+        <translation>Akceptovať iba reťazce blokov, ktoré sa zhodujú zo zabudovanými kontrolnými bodmi (predvolené: %u)</translation>
+    </message>
+    <message>
+        <source>Only connect to nodes in network &lt;net&gt; (ipv4, ipv6 or onion)</source>
+        <translation>Pripojiť iba k uzlom v sieti &lt;net&gt; (ipv4, ipv6, alebo onion)</translation>
     </message>
     <message>
         <source>Prepend debug output with timestamp (default: %u)</source>
         <translation>Na začiatok pripojiť časovú známku k ladiacemu výstupu (predvolené: %u)</translation>
     </message>
     <message>
-        <source>Rebuild chain state and block index from the blk*.dat files on disk</source>
-        <translation>Obnoviť stav reťazca a index blokov zo súborov blk*.dat na disku.</translation>
-    </message>
-    <message>
-        <source>Rebuild chain state from the currently indexed blocks</source>
-        <translation>Obnoviť stav reťazca z aktuálne indexovaných blokov.</translation>
+        <source>Run a thread to flush wallet periodically (default: %u)</source>
+        <translation>Spúšťať vlákno pre pravidelné vyprázdnenie peňaženky (predvolené: %u)</translation>
     </message>
     <message>
         <source>Send trace/debug info to debug.log file (default: %u)</source>
@@ -4012,6 +4041,18 @@ https://www.transifex.com/projects/p/dash/</translation>
     <message>
         <source>Send transactions as zero-fee transactions if possible (default: %u)</source>
         <translation>Poslať ako transakcie bez poplatku, ak je to možné (predvolené: %u)</translation>
+    </message>
+    <message>
+        <source>Server certificate file (default: %s)</source>
+        <translation>Certifikačný súbor servera (predvolené: %s)</translation>
+    </message>
+    <message>
+        <source>Server private key (default: %s)</source>
+        <translation>Privátny kľúč servera (predvolené: %s)</translation>
+    </message>
+    <message>
+        <source>Set external address:port to get to this masternode (example: %s)</source>
+        <translation>Nastaviť externú adresu:port ktorý sa dostane sa k tomuto masternode (príklad: %s)</translation>
     </message>
     <message>
         <source>Set key pool size to &lt;n&gt; (default: %u)</source>
@@ -4024,6 +4065,14 @@ https://www.transifex.com/projects/p/dash/</translation>
     <message>
         <source>Set the number of threads to service RPC calls (default: %d)</source>
         <translation>Nastaviť počet vlákien na obsluhu RPC volaní (predvolené: %d)</translation>
+    </message>
+    <message>
+        <source>Sets the DB_PRIVATE flag in the wallet db environment (default: %u)</source>
+        <translation>Nastaviť DB_PRIVATE príznak v prostredí peňaženky (predvolené: %u)</translation>
+    </message>
+    <message>
+        <source>Signing timed out.</source>
+        <translation>Časový limit pre prihlásenie uplynul.</translation>
     </message>
     <message>
         <source>Specify configuration file (default: %s)</source>
@@ -4046,6 +4095,10 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Minúť nepotvrdené zmenu pri posielaní transakcií (predvolené: %u)</translation>
     </message>
     <message>
+        <source>Stop running after importing blocks from disk (default: %u)</source>
+        <translation>Ukončiť činnosť po importovaní blokov z disku (predvolené: %u)</translation>
+    </message>
+    <message>
         <source>Submitted following entries to masternode: %u / %d</source>
         <translation>Položky odoslané na masternode: %u / %d</translation>
     </message>
@@ -4066,8 +4119,20 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Synchronizácia dokončená</translation>
     </message>
     <message>
+        <source>Synchronizing budgets...</source>
+        <translation>Synchronizujú sa rozpočty...</translation>
+    </message>
+    <message>
+        <source>Synchronizing masternode winners...</source>
+        <translation>Synchronizujú sa masternode víťazi...</translation>
+    </message>
+    <message>
         <source>Synchronizing masternodes...</source>
         <translation>Synchronizujú sa masternode...</translation>
+    </message>
+    <message>
+        <source>Synchronizing sporks...</source>
+        <translation>Synchronizujú sa sporky...</translation>
     </message>
     <message>
         <source>This is not a Masternode.</source>
@@ -4078,48 +4143,28 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Hranica pre odpájanie zle sa správajúcim partnerským uzlom (predvolené: %u)</translation>
     </message>
     <message>
-        <source>Tor control port password (default: empty)</source>
-        <translation>Heslo na kontrolu portu pre Tor (predvolené: žiadne)</translation>
-    </message>
-    <message>
-        <source>Unable to start HTTP server. See debug log for details.</source>
-        <translation>Nepodarilo sa spustiť HTTP server. Pre viac detailov zobrazte debug log.</translation>
-    </message>
-    <message>
-        <source>Unknown response.</source>
-        <translation>Neznáma odpoveď.</translation>
-    </message>
-    <message>
-        <source>Unsupported argument -benchmark ignored, use -debug=bench.</source>
-        <translation>Nepodporovaný argument -benchmark bol ignorovaný, použite -debug=bench.</translation>
-    </message>
-    <message>
-        <source>Unsupported argument -debugnet ignored, use -debug=net.</source>
-        <translation>Nepodporovaný argument -debugnet bol ignorovaný, použite -debug=net.</translation>
-    </message>
-    <message>
-        <source>Unsupported argument -tor found, use -onion.</source>
-        <translation>Nepodporovaný argument -tor, použite -onion.</translation>
-    </message>
-    <message>
-        <source>Upgrade wallet to latest format on startup</source>
-        <translation>Pri spustení inovovať peňaženku na posledný formát</translation>
-    </message>
-    <message>
         <source>Use KeePass 2 integration using KeePassHttp plugin (default: %u)</source>
         <translation>Použiť integráciu KeePass 2 s využitím doplnku KeePassHttp (predvolené: %u)</translation>
+    </message>
+    <message>
+        <source>Use N separate masternodes to anonymize funds  (2-8, default: %u)</source>
+        <translation>Použiť N rozdielnych masternode na anonymizovanie zdrojov (2-8, predvolené: %u)</translation>
     </message>
     <message>
         <source>Use UPnP to map the listening port (default: %u)</source>
         <translation>Použiť UPnP pre mapovanie počúvajúceho portu (predvolené: %u)</translation>
     </message>
     <message>
-        <source>Use the test chain</source>
-        <translation>Použiť testovaciu sieť</translation>
+        <source>Wallet needed to be rewritten: restart Soneet Core to complete</source>
+        <translation>Bolo potrebné prepísať peňaženku: k dokončeniu reštartujte Soneet Core</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart Dash Core to complete</source>
-        <translation>Bolo potrebné prepísať peňaženku: k dokončeniu reštartujte Dash Core</translation>
+        <source>Warning: Unsupported argument -benchmark ignored, use -debug=bench.</source>
+        <translation>Upozornenie: Nepodporovaný argument -benchmark bol ignorovaný, použite -debug=bench.</translation>
+    </message>
+    <message>
+        <source>Warning: Unsupported argument -debugnet ignored, use -debug=net.</source>
+        <translation>Upozornenie: Nepodporovaný argument -debugnet bol ignorovaný, použite -debug=net.</translation>
     </message>
     <message>
         <source>Will retry...</source>
@@ -4128,6 +4173,10 @@ https://www.transifex.com/projects/p/dash/</translation>
     <message>
         <source>Invalid masternodeprivkey. Please see documenation.</source>
         <translation>Neplatný masternodeprivkey. Prosím pozrite do dokumentácie.</translation>
+    </message>
+    <message>
+        <source>(must be 2901 for mainnet)</source>
+        <translation>(pre hlavnú sieť musí byť 2901)</translation>
     </message>
     <message>
         <source>Can't find random Masternode.</source>
@@ -4150,6 +4199,10 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Zistený neplatný port v masternode.conf</translation>
     </message>
     <message>
+        <source>Invalid private key.</source>
+        <translation>Neplatný súkromný kľúč.</translation>
+    </message>
+    <message>
         <source>Invalid script detected.</source>
         <translation>Zistený neplatný skript.</translation>
     </message>
@@ -4162,204 +4215,16 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Kľúč KeePassHttp pre šifrovanú AES komunikáciu s KeePass</translation>
     </message>
     <message>
-        <source>Keep N DASH anonymized (default: %u)</source>
-        <translation>Udržiavať N DASH anonymizovaných (predvolené: %u)</translation>
+        <source>Keep N SONEET anonymized (default: %u)</source>
+        <translation>Udržiavať N SONEET anonymizovaných (predvolené: %u)</translation>
     </message>
     <message>
         <source>Keep at most &lt;n&gt; unconnectable transactions in memory (default: %u)</source>
         <translation>V pamäti udržiavať najviac &lt;n&gt; nepotvrdených transakcií (predvolené: %u)</translation>
     </message>
     <message>
-        <source>Disable all Dash specific functionality (Masternodes, PrivateSend, InstantSend, Governance) (0-1, default: %u)</source>
-        <translation>Vypnúť všetky funkcie špecifické pre Dash (Masternodes, PrivateSend, InstantSend, Vláda) (0-1, predvolené: %u)</translation>
-    </message>
-    <message>
-        <source>Discover own IP addresses (default: 1 when listening and no -externalip or -proxy)</source>
-        <translation>Zisti vlastnú IP adresu (predvolené: 1 pre listen a -externalip alebo -proxy)</translation>
-    </message>
-    <message>
-        <source>Enable InstantSend, show confirmations for locked transactions (0-1, default: %u)</source>
-        <translation>Zapnúť InstantSend, ukázať potvrdenia pre zamknuté transakcie (0-1, predvolené: %u)</translation>
-    </message>
-    <message>
-        <source>Enable use of automated PrivateSend for funds stored in this wallet (0-1, default: %u)</source>
-        <translation>Povoliť používanie automatického PrivateSend pre zdroje uložené v tejto peňaženke (0-1, predvolené: %u)</translation>
-    </message>
-    <message>
-        <source>Execute command when a wallet InstantSend transaction is successfully locked (%s in cmd is replaced by TxID)</source>
-        <translation>Spustiť príkaz keď je InstantSend zmení úspešne zamknutá (%s v cmd sa nahrádza TxID)</translation>
-    </message>
-    <message>
-        <source>Fees (in %s/kB) smaller than this are considered zero fee for relaying, mining and transaction creation (default: %s)</source>
-        <translation>Poplatky (v %s/kB) menšie ako toto, sú považované za nulový transakčný poplatok (predvolené: %s)</translation>
-    </message>
-    <message>
-        <source>Fees (in %s/kB) smaller than this are considered zero fee for transaction creation (default: %s)</source>
-        <translation>Poplatky (v %s/kB) menšie ako toto, sú považované za nulový transakčný poplatok (predvolené: %s)</translation>
-    </message>
-    <message>
-        <source>If &lt;category&gt; is not supplied or if &lt;category&gt; = 1, output all debugging information.</source>
-        <translation>Pokiaľ &lt;category&gt; nie je nastavená, alebo &lt;category&gt; = 1, vypíš všetky informácie pre ladenie.</translation>
-    </message>
-    <message>
-        <source>InstantSend doesn't support sending values that high yet. Transactions are currently limited to %1 DASH.</source>
-        <translation>InstantSend zatiaľ nepodporuje posielanie takto vysokých čiastok. Transakcie sú limitované na %1 DASH.</translation>
-    </message>
-    <message>
-        <source>InstantSend requires inputs with at least %d confirmations, you might need to wait a few minutes and try again.</source>
-        <translation>InstantSend vyžaduje vstupy s aspoň %d potvrdeniami, môžete počkať pár minút a skúsiť znova.</translation>
-    </message>
-    <message>
-        <source>Maximum total fees (in %s) to use in a single wallet transaction; setting this too low may abort large transactions (default: %s)</source>
-        <translation>Celkové maximum poplatkov (v %s) pre použitie jednej transakcie peňaženky. Príliš malá hodnota môže prerušiť veľké transakcie (predvolené: %s)</translation>
-    </message>
-    <message>
-        <source>Please check that your computer's date and time are correct! If your clock is wrong Dash Core will not work properly.</source>
-        <translation>Skontrolujte si prosím či máte správny čas a dátum na Vašom počítači. Ak je Vaše nastavenie zlé, Dash Core nebude pracovať správne.</translation>
-    </message>
-    <message>
-        <source>PrivateSend uses exact denominated amounts to send funds, you might simply need to anonymize some more coins.</source>
-        <translation>Pre poslanie zdrojov používa PrivateSend presné sumy, potrebujete jednoducho anonymizovať viac mincí. </translation>
-    </message>
-    <message>
-        <source>Provide liquidity to PrivateSend by infrequently mixing coins on a continual basis (0-100, default: %u, 1=very frequent, high fees, 100=very infrequent, low fees)</source>
-        <translation>Poskytnúť likviditu pre PrivateSend nepravidelným miešaním mincí na kontinuálnej báze (0-100, predvolené: %u, 1=veľmi často, vysoké poplatky, 100=veľmi zriedkavo, malé poplatky)</translation>
-    </message>
-    <message>
-        <source>Prune configured below the minimum of %d MiB.  Please use a higher number.</source>
-        <translation>Redukcia nastavená pod minimálnu hodnotu %d MiB. Prosím použite vyššiu hodnotu.</translation>
-    </message>
-    <message>
-        <source>The block database contains a block which appears to be from the future. This may be due to your computer's date and time being set incorrectly. Only rebuild the block database if you are sure that your computer's date and time are correct</source>
-        <translation>Databáza blokov obsahuje blok, ktorý vyzerá byť z budúcnosti. Toto môže byť spôsobené nesprávnym systémovým časom vášho počítača. Obnovujte databázu blokov len keď ste si istý, že systémový čas je nastavený správne.</translation>
-    </message>
-    <message>
-        <source>The transaction amount is too small to send after the fee has been deducted</source>
-        <translation>Suma je príliš malá pre odoslanie tranzakcie</translation>
-    </message>
-    <message>
-        <source>Total length of network version string (%i) exceeds maximum length (%i). Reduce the number or size of uacomments.</source>
-        <translation>Celková dĺžka verzie sieťového reťazca (%i) prekračuje maximálnu dĺžku (%i). Znížte počet a veľkosť komentárov.</translation>
-    </message>
-    <message>
-        <source>Tries to keep outbound traffic under the given target (in MiB per 24h), 0 = no limit (default: %d)</source>
-        <translation>Sa snaží držať odchádzajúce prevádzku v rámci daného cieľa (v MB za 24h), 0 = žiadny limit (predvolený: %d)</translation>
-    </message>
-    <message>
-        <source>Unable to locate enough PrivateSend denominated funds for this transaction.</source>
-        <translation>Nedá sa nájsť dostatok denominácií PrivateSend pre túto transakciu. </translation>
-    </message>
-    <message>
-        <source>Unable to locate enough PrivateSend non-denominated funds for this transaction that are not equal 1000 DASH.</source>
-        <translation>Nedá sa nájsť dostatok ne-denominovaných PrivateSend zdrojov pre túto transakciu, ktoré nie sú rovné 1000 DASH.</translation>
-    </message>
-    <message>
-        <source>Unsupported argument -socks found. Setting SOCKS version isn't possible anymore, only SOCKS5 proxies are supported.</source>
-        <translation>Nájdený nepodporovaný argument -socks. Nastavenie SOCKS verzie nie je už možné, podporované sú už iba proxy SOCKS5.</translation>
-    </message>
-    <message>
-        <source>Unsupported argument -whitelistalwaysrelay ignored, use -whitelistrelay and/or -whitelistforcerelay.</source>
-        <translation>Nepodporovaný argument -whitelistalwaysrelay ignorovaný, použite -whitelistrelay a/alebo -whitelistforcerelay.</translation>
-    </message>
-    <message>
-        <source>Use UPnP to map the listening port (default: 1 when listening and no -proxy)</source>
-        <translation>Skúsiť použiť UPnP pre mapovanie počúvajúceho portu (predvolené: 1 počas počúvania a bez -proxy)</translation>
-    </message>
-    <message>
-        <source>Warning: Unknown block versions being mined! It's possible unknown rules are in effect</source>
-        <translation>Varovanie: Neznáma verzia blokov sa doluje! Je možné, že neznáme pravidlá majú efekt</translation>
-    </message>
-    <message>
-        <source>%s - %d confirmations</source>
-        <translation>%s - %d potvrdení</translation>
-    </message>
-    <message>
-        <source>(%d could be used only on mainnet)</source>
-        <translation>(%d môže byť použité iba pre hlavnú sieť)</translation>
-    </message>
-    <message>
-        <source>(default: %u)</source>
-        <translation>(predvolené: %u)</translation>
-    </message>
-    <message>
-        <source>(must be %d for mainnet)</source>
-        <translation>(pre hlavnú sieť musí byť %d)</translation>
-    </message>
-    <message>
-        <source>-maxmempool must be at least %d MB</source>
-        <translation>-maxmempool musí byť najmenej %d MB</translation>
-    </message>
-    <message>
-        <source>&lt;category&gt; can be:</source>
-        <translation>&lt;category&gt; môže byť:</translation>
-    </message>
-    <message>
-        <source>Automatic backups disabled</source>
-        <translation>Automatické zálohy sú deaktivované</translation>
-    </message>
-    <message>
-        <source>Automatically create Tor hidden service (default: %d)</source>
-        <translation>Automaticky vytvoriť skrytú službu Tor (predvolené: %d)</translation>
-    </message>
-    <message>
-        <source>ERROR! Failed to create automatic backup</source>
-        <translation>CHYBA! Nepodarilo sa vytvoriť automatickú zálohu</translation>
-    </message>
-    <message>
-        <source>Enable publish hash block in &lt;address&gt;</source>
-        <translation>Povoliť zverejneneie hash blokov pre &lt;address&gt;</translation>
-    </message>
-    <message>
-        <source>Enable publish hash transaction in &lt;address&gt;</source>
-        <translation>Povoliť zverejnenie hash tranzakcií pre &lt;address&gt;</translation>
-    </message>
-    <message>
-        <source>Enable publish raw block in &lt;address&gt;</source>
-        <translation>Povoliť zverejnenie raw bloku pre &lt;address&gt;</translation>
-    </message>
-    <message>
-        <source>Enable publish raw transaction in &lt;address&gt;</source>
-        <translation>Povoliť publikovať hrubý prevod v &lt;address&gt;</translation>
-    </message>
-    <message>
-        <source>Error: A fatal internal error occurred, see debug.log for details</source>
-        <translation>Chyba: Vyskytla sa interná chyba, pre viac informácií zobrazte debug.log</translation>
-    </message>
-    <message>
-        <source>Failed to create backup %s!</source>
-        <translation>Nepodarilo sa vytvoriť zálohu %s!</translation>
-    </message>
-    <message>
-        <source>Failed to create backup, error: %s</source>
-        <translation>Nepodarilo sa vytvoriť zálohu, chyba: %s</translation>
-    </message>
-    <message>
-        <source>Failed to delete backup, error: %s</source>
-        <translation>Nepodarilo sa vymazať zálohu, chyba: %s</translation>
-    </message>
-    <message>
-        <source>Fee (in %s/kB) to add to transactions you send (default: %s)</source>
-        <translation>Poplatok (za %s/kB) pridaný do tranzakcie, ktorú posielate (predvolené: %s)</translation>
-    </message>
-    <message>
-        <source>Imports blocks from external blk000??.dat file on startup</source>
-        <translation>Importovať bloky z externého súboru blk000??.dat pri štarte</translation>
-    </message>
-    <message>
-        <source>InstantSend options:</source>
-        <translation>Možnosti InstantSend:</translation>
-    </message>
-    <message>
-        <source>Invalid amount for -fallbackfee=&lt;amount&gt;: '%s'</source>
-        <translation>Neplatná suma pre -fallbackfee=&lt;amount&gt;: '%s'</translation>
-    </message>
-    <message>
-        <source>Last PrivateSend was too recent.</source>
-        <translation>Posledný PrivateSend bol uskutočnený pred príliš krátkou chvíľou.</translation>
-    </message>
-    <message>
-        <source>Last successful PrivateSend action was too recent.</source>
-        <translation>Posledná úspešná PrivateSend akcia bola uskutočnená pred príliš krátkou chvíľou.</translation>
+        <source>Last Darksend was too recent.</source>
+        <translation>Posledný Dasksend bol pred chvíľou.</translation>
     </message>
     <message>
         <source>Line: %d</source>
@@ -4382,10 +4247,6 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Načítavanie peňaženky...</translation>
     </message>
     <message>
-        <source>Location of the auth cookie (default: data dir)</source>
-        <translation>Umiestnenie overovacieho cookie súboru (predvolená: Priečinok s dátami)</translation>
-    </message>
-    <message>
         <source>Masternode options:</source>
         <translation>Možnosti Masternode:</translation>
     </message>
@@ -4402,8 +4263,8 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Chýbajú vstupy transakčnej informácie.</translation>
     </message>
     <message>
-        <source>No errors detected.</source>
-        <translation>Nezistená žiadna chyba.</translation>
+        <source>No funds detected in need of denominating.</source>
+        <translation>Nedetekované žiadne zdroje pre potreby denominácie.</translation>
     </message>
     <message>
         <source>No matching denominations found for mixing.</source>
@@ -4426,10 +4287,6 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Nedostatok kľúčových slov súboru.</translation>
     </message>
     <message>
-        <source>Number of automatic wallet backups (default: %u)</source>
-        <translation>Počet automatických záloh peňaženky (predvolené: %u)</translation>
-    </message>
-    <message>
         <source>Options:</source>
         <translation>Možnosti:</translation>
     </message>
@@ -4438,60 +4295,28 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Heslo pre JSON-rPC spojenia</translation>
     </message>
     <message>
-        <source>Print version and exit</source>
-        <translation>Vytlačiť verziu a ukončiť</translation>
-    </message>
-    <message>
-        <source>PrivateSend is idle.</source>
-        <translation>PrivateSend je nečinný.</translation>
-    </message>
-    <message>
-        <source>PrivateSend options:</source>
-        <translation>Možnosti PrivateSend:</translation>
-    </message>
-    <message>
-        <source>PrivateSend request complete:</source>
-        <translation>Dokončené PrivateSend požiadavky:</translation>
-    </message>
-    <message>
-        <source>PrivateSend request incomplete:</source>
-        <translation>Nedokončené PrivateSend požiadavky:</translation>
-    </message>
-    <message>
-        <source>Prune cannot be configured with a negative value.</source>
-        <translation>Redukovanie nemôže byť nastavené na zápornú hodnotu.</translation>
-    </message>
-    <message>
-        <source>Prune mode is incompatible with -txindex.</source>
-        <translation>Redukovanie je nekompatibilné s -txindex.</translation>
-    </message>
-    <message>
-        <source>Pruning blockstore...</source>
-        <translation>Redukovanie blockstore...</translation>
-    </message>
-    <message>
-        <source>Rescan the block chain for missing wallet transactions on startup</source>
-        <translation>Pri spustení skontrolovať reťaz blokov pre chýbajúce transakcie peňaženky</translation>
-    </message>
-    <message>
-        <source>Wasn't able to create wallet backup folder %s!</source>
-        <translation>Nepodarilo sa vytvorenie priečinku pre zálohu %s!</translation>
-    </message>
-    <message>
-        <source>ZeroMQ notification options:</source>
-        <translation>Možnosti pripojenia ZeroMQ:</translation>
-    </message>
-    <message>
-        <source>no mixing available.</source>
-        <translation>miešanie nedostupné.</translation>
-    </message>
-    <message>
-        <source>see debug.log for details.</source>
-        <translation>podrobnosti nájdete v debug.log.</translation>
+        <source>RPC SSL options: (see the Bitcoin Wiki for SSL setup instructions)</source>
+        <translation>Možnosti RPC SSL: (Pozri v Bitcoin Wiki pokyny pre SSL nastavenie)</translation>
     </message>
     <message>
         <source>RPC server options:</source>
         <translation>Možnosti servra RPC:</translation>
+    </message>
+    <message>
+        <source>RPC support for HTTP persistent connections (default: %d)</source>
+        <translation>Podpora RPC pre trvalé HTTP spojenia (predvolené: %d)</translation>
+    </message>
+    <message>
+        <source>Randomly drop 1 of every &lt;n&gt; network messages</source>
+        <translation>Náhodne zahodiť 1 každých &lt;n&gt; sieťových správ</translation>
+    </message>
+    <message>
+        <source>Randomly fuzz 1 of every &lt;n&gt; network messages</source>
+        <translation>Náhodne prilepiť 1 každých &lt;n&gt; sieťových správ</translation>
+    </message>
+    <message>
+        <source>Rebuild block chain index from current blk000??.dat files</source>
+        <translation>Znovu vytvoriť index reťazca blokov zo súčastných blk000??.dat súborov</translation>
     </message>
     <message>
         <source>Receive and display P2P network alerts (default: %u)</source>
@@ -4506,16 +4331,16 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Prenášať non-P2SH multi-podpis (predvolené: %u)</translation>
     </message>
     <message>
+        <source>Rescan the block chain for missing wallet transactions</source>
+        <translation>Znova prehľadať reťazec blokov pre nájdenie chýbajúcich transakcií peňaženky</translation>
+    </message>
+    <message>
         <source>Rescanning...</source>
         <translation>Znova prehľadávam...</translation>
     </message>
     <message>
         <source>Run in the background as a daemon and accept commands</source>
         <translation>Bežať na pozadí ako démon a prijímať príkazy</translation>
-    </message>
-    <message>
-        <source>Send trace/debug info to console instead of debug.log file</source>
-        <translation>Odoslať trace/debug informácie na konzolu namiesto debug.info žurnálu</translation>
     </message>
     <message>
         <source>Session not complete!</source>
@@ -4546,6 +4371,10 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Stlačiť debug.log súbor na spustenie klienta (predvolené: 1, keď nie -debug)</translation>
     </message>
     <message>
+        <source>Signing failed.</source>
+        <translation>Podpisovanie zlyhalo.</translation>
+    </message>
+    <message>
         <source>Signing transaction failed</source>
         <translation>Podpisovanie transakcie zlyhalo</translation>
     </message>
@@ -4566,24 +4395,16 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Synchronizácia čaká...</translation>
     </message>
     <message>
-        <source>Synchronizing governance objects...</source>
-        <translation>Synchronizujú sa objekty správy...</translation>
-    </message>
-    <message>
-        <source>Synchronizing masternode payments...</source>
-        <translation>Synchronizujú sa masternode platby...</translation>
-    </message>
-    <message>
-        <source>The transaction amount is too small to pay the fee</source>
-        <translation>Suma transakcie je príliš malá na zaplatenie poplatku</translation>
-    </message>
-    <message>
         <source>This help message</source>
         <translation>Táto pomocná správa</translation>
     </message>
     <message>
         <source>This is experimental software.</source>
         <translation>Toto je experimentálny softvér. </translation>
+    </message>
+    <message>
+        <source>This is intended for regression testing tools and app development.</source>
+        <translation>Toto je určené pre regresiu testovacích nástrojov and vývojárskych aplikácií.</translation>
     </message>
     <message>
         <source>Transaction amount too small</source>
@@ -4614,6 +4435,10 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Transakcia je príliš veľká</translation>
     </message>
     <message>
+        <source>Transmitting final transaction.</source>
+        <translation>Vysiela sa finálna transakcia.</translation>
+    </message>
+    <message>
         <source>Unable to bind to %s on this computer (bind returned error %s)</source>
         <translation>Na tomto počítači sa nedá vytvoriť väzba %s (vytvorenie väzby vrátilo chybu %s)</translation>
     </message>
@@ -4630,8 +4455,28 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Neznámy stav: id = %u</translation>
     </message>
     <message>
+        <source>Upgrade wallet to latest format</source>
+        <translation>Inovovať peňaženku na posledný formát</translation>
+    </message>
+    <message>
+        <source>Use OpenSSL (https) for JSON-RPC connections</source>
+        <translation>Použiť OpenSSL (https) pre JSON-RPC spojenia</translation>
+    </message>
+    <message>
+        <source>Use UPnP to map the listening port (default: 1 when listening)</source>
+        <translation>Skúsiť použiť UPnP pre mapovanie počúvajúceho portu (predvolené: 1 počas počúvania)</translation>
+    </message>
+    <message>
+        <source>Use the test network</source>
+        <translation>Použiť testovaciu sieť</translation>
+    </message>
+    <message>
         <source>Username for JSON-RPC connections</source>
         <translation>Užívateľské meno pre JSON-RPC spojenia</translation>
+    </message>
+    <message>
+        <source>Value more than Darksend pool maximum allows.</source>
+        <translation>Väčšia hodnota ako dovoľuje fronta Darksend.</translation>
     </message>
     <message>
         <source>Verifying blocks...</source>
@@ -4639,11 +4484,7 @@ https://www.transifex.com/projects/p/dash/</translation>
     </message>
     <message>
         <source>Verifying wallet...</source>
-        <translation>Overuje sa peňaženka...</translation>
-    </message>
-    <message>
-        <source>Very low number of keys left: %d</source>
-        <translation>Zostáva veľmi málo kľúčov: %d</translation>
+        <translation>Overovanie peňaženky</translation>
     </message>
     <message>
         <source>Wallet %s resides outside data directory %s</source>
@@ -4666,6 +4507,14 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Upozornenie</translation>
     </message>
     <message>
+        <source>Warning: This version is obsolete, upgrade required!</source>
+        <translation>Upozornenie: Táto verzia je zastaraná, vyžaduje sa aktualizácia!</translation>
+    </message>
+    <message>
+        <source>You need to rebuild the database using -reindex to change -txindex</source>
+        <translation>Potrebujete prebudovať databázu použitím -reindex zmeniť -txindex</translation>
+    </message>
+    <message>
         <source>Your entries added successfully.</source>
         <translation>Vaše položky boli úspešne pridané.</translation>
     </message>
@@ -4676,6 +4525,10 @@ https://www.transifex.com/projects/p/dash/</translation>
     <message>
         <source>Zapping all transactions from wallet...</source>
         <translation>Vymazať všetky transakcie z peňaženky...</translation>
+    </message>
+    <message>
+        <source>on startup</source>
+        <translation>pri spustení</translation>
     </message>
     <message>
         <source>wallet.dat corrupt, salvage failed</source>

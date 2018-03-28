@@ -1,6 +1,6 @@
 all:
-	$(MAKE) -C .. dash_test
+	$(MAKE) -C .. soneet_test
 clean:
-	$(MAKE) -C .. dash_test_clean
+	$(MAKE) -C .. soneet_test_clean
 check:
-	$(MAKE) -C .. dash_test_check
+	$(MAKE) -C .. soneet_test_check
